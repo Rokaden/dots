@@ -8,8 +8,8 @@ URxvt*iconFile: /usr/share/icons/Papirus/64x64/apps/terminal.svg
 ! appearance
 URxvt*depth:            32
 !URxvt*background:      rgba:0000/0000/0000/AAAA
-URxvt*background:      [90]#1F2326
-!URxvt*background:       [100]#1d1f21
+!URxvt*background:      [90]#1F2326
+!URxvt*background:       [100]#B6A49B
 !URxvt*foreground: 		                #c0b18b
 !URxvt.underlineColor:   #4682B4
 !URxvt.highlightColor:   #4682B4
@@ -25,41 +25,41 @@ URxvt*externalBorder:   0
 !URxvt.colorUL:      #87afd7
 
 ! special
-*.foreground:   #c0c5ce
-*.background:   #2b303b
-*.cursorColor:  #c0c5ce
+*.foreground:   #b6a49b
+*.background:   #3d3c3b
+*.cursorColor:  #b6a49b
 
 ! black
-*.color0:       #2b303b
-*.color8:       #65737e
+*.color0:       #282a2e
+*.color8:       #373b41
 
 ! red
-*.color1:       #bf616a
-*.color9:       #bf616a
+*.color1:       #b6a49b
+*.color9:       #b6a49b
 
 ! green
-*.color2:       #a3be8c
-*.color10:      #a3be8c
+*.color2:       #b6a49b
+*.color10:      #b6a49b
 
 ! yellow
-*.color3:       #ebcb8b
-*.color11:      #ebcb8b
+*.color3:       #b6a49b
+*.color11:      #b6a49b
 
 ! blue
-*.color4:       #8fa1b3
-*.color12:      #8fa1b3
+*.color4:       #b6a49b
+*.color12:      #b6a49b
 
 ! magenta
-*.color5:       #b48ead
-*.color13:      #b48ead
+*.color5:       #b6a49b
+*.color13:      #b6a49b
 
 ! cyan
-*.color6:       #96b5b4
-*.color14:      #96b5b4
+*.color6:       #b6a49b
+*.color14:      #b6a49b
 
 ! white
-*.color7:       #c0c5ce
-*.color15:      #eff1f5
+*.color7:       #b6a49b
+*.color15:      #c5c8c6
 
 
 ! fonts
@@ -105,11 +105,14 @@ URxvt*buffered:         false
 
 rofi.font:              Pilcrow 20
 rofi.color-enabled: true
-rofi.color-window: #DFE1E8, #8fA1B3, #8fA1B3
-rofi.color-normal: #DFE1E8, #8fA1B3, #DFE1E8, #8fA1B3, #DFE1E8
-rofi.color-active: #8fA1B3, #DFE1E8, #8fA1B3, #DFE1E8, #8fA1B3
-rofi.color-urgent: #8fA1B3, #DFE1E8, #8fA1B3, #DFE1E8, #8fA1B3
-rofi.separator-style:   solid
+! 					'background', 'border', 'dividing line'
+rofi.color-window: 	#3D3C3B, 	  #B6A49B, 	   #B6A49B
+! 					'bg', 	  'fg' 	 'bgalt'   'hlbg' 	'hlfg'
+rofi.color-normal: #3D3C3B, #B6A49B, #3D3C3B, #B6A49B, #3D3C3B
+rofi.color-active: #B6A49B, #3D3C3B, #B6A49B, #3D3C3B, #B6A49B
+rofi.color-urgent: #B6A49B, #3D3C3B, #B6A49B, #3D3C3B, #B6A49B
+rofi.separator-style:   none
+rofi.modi: drun,run,window,ssh
 rofi.fullscreen:        false
 rofi.padding:           10
 rofi.hide-scrollbar:    true

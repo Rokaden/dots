@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Sandy
+Comment=Sandy Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Sandy
+GtkTheme=Sandy
+IconTheme=Sandy
+MetacityTheme=Sandy

@@ -4,9 +4,9 @@ http://theconso.deviantart.com/
 
 -->
 
-  <skin name="Covergloobus Square Mod" width="1920" height="200">
-<albumname x="215" y="10" width="1300" align="left" maxchars="500" font="Kenyan Coffee Regular 35" color="#d7d7d7ff" />  
-<artistname x="215" y="65" width="1300" font="Olympic Branding Regular 40" align="left" color="#1792d0ff"  maxchars="155" scroll="true" />
+  <skin name="Covergloobus Square Mod" width="1920" height="250">
+<albumname x="215" y="5" width="1300" align="left" maxchars="500" font="Kenyan Coffee Regular 35" color="#d7d7d7ff" />  
+<artistname x="215" y="65" width="1300" font="Olympic Branding Regular 40" align="left" color="#81A2BEff"  maxchars="155" scroll="true" />
   <titlename x="215" y="135" width="1300" font="Kenyan Coffee Regular 25" align="left" color="#d7d7d7ff"  maxchars="155" scroll="true" />
       
 <albumcover x="0" y="0" width="200" height="200" round="0"  mask="Maschera.png"/>
