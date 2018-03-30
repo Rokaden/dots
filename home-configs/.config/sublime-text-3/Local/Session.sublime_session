@@ -3,11 +3,11 @@
 	[
 	],
 	"last_version": 3143,
-	"last_window_id": 28,
+	"last_window_id": 33,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1875.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -26,13 +26,33 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 80.0,
-				"last_filter": "",
+				"height": 588.0,
+				"last_filter": "me",
 				"selected_items":
 				[
 					[
+						"me",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"UI",
+						"UI: Select Theme"
+					],
+					[
+						" control",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
 						"",
-						"Preferences: Settings"
+						"Install Package Control"
 					],
 					[
 						"settin",
@@ -47,7 +67,7 @@
 						"Preferences: Settings"
 					]
 				],
-				"width": 648.0
+				"width": 618.0
 			},
 			"console":
 			{
@@ -67,533 +87,134 @@
 			},
 			"file_history":
 			[
-				"/home/dobbie/.mozilla/firefox/971hma3a.dev-edition-default/chrome/userChrome.css",
-				"/home/dobbie/.xinitrc",
-				"/home/dobbie/.config/qutebrowser/config.py",
-				"/home/dobbie/Templates/script.sh",
-				"/home/dobbie/.Xresources",
-				"/home/dobbie/.config/termite/config",
-				"/home/dobbie/.config/compton.conf",
-				"/home/dobbie/.mozilla/firefox/ej1jaon2.default/chrome/userChrome.css",
-				"/home/dobbie/al.sh",
-				"/home/dobbie/.al.sh",
-				"/home/dobbie/.config/i3/config",
-				"/home/dobbie/.config/openbox/rc.xml",
-				"/home/dobbie/.config/polybar/config",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/ocean-light.tmTheme",
-				"/home/dobbie/.config/geany/colorschemes/base16-ocean.dark.conf",
-				"/home/dobbie/.config/openbox/_menu.xml",
-				"/etc/pam.d/i3lock",
-				"/home/dobbie/.bin/email",
-				"/home/dobbie/almighty-dotfiles/.config/openbox/autostart",
-				"/home/dobbie/.config/dunst/dunstrc",
-				"/home/dobbie/.config/openbox/autostart",
-				"/home/dobbie/.config/openbox/menu.xml",
-				"/home/dobbie/Nylas-Arc-Dark-Theme/styles/ui-variables.less",
-				"/home/dobbie/.ncmpcpp/config",
 				"/home/dobbie/.config/neofetch/config",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/config-openbox",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs-trusted",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.Xresources",
-				"/home/dobbie/.config/conky/Arch_Panel_Star_Sign_4K_ArchLabs_Dark.conkyrc",
-				"/home/dobbie/.config/tint2/scripts/tnt2_weather.sh",
-				"/tmp/11798-14832-1ec7dni.ospj.log",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/scripts/pkg.sh",
-				"/home/dobbie/.config/polybar/pkg.sh",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/PKGBUILD",
-				"/home/dobbie/.cache/.fr-IaZwxI/.PKGINFO",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs-keyring.install",
-				"/home/dobbie/.config/polybar/Pause.py",
-				"/home/dobbie/.config/polybar/Play.py",
-				"/bin/al-help-pipemenu",
-				"/home/dobbie/.xscreensaver",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs.gpg",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-trusted",
-				"/home/dobbie/Documents/subkey.gpg",
-				"/home/dobbie/.config/conky/Arch_Panel_Star_Sign_4K.conkyrc",
-				"/home/dobbie/Downloads/seethru.config",
-				"/home/dobbie/.zshrc",
-				"/home/dobbie/.config/polybar/mpris.sh",
-				"/home/dobbie/.config/polybar/network.sh",
-				"/home/dobbie/.config/conky/spber.conkyrc",
-				"/home/dobbie/.config/tint2/themes/flatstudio.tnt2rc",
-				"/home/dobbie/.config/polybar/polybar.sh",
-				"/home/dobbie/.config/pcmanfm/default/pcmanfm.conf",
-				"/home/dobbie/dots/scripts/popup/popup.sh",
-				"/home/dobbie/Downloads/al-focus",
-				"/home/dobbie/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml",
-				"/home/dobbie/script.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/usr/bin/al-hello",
-				"/home/dobbie/.config/tint2/playerctl.tintrc",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/rc.xml",
-				"/home/dobbie/Downloads/script-choices.sh",
-				"/home/dobbie/temp/PKGBUILD",
-				"/home/dobbie/Downloads/post",
-				"/home/dobbie/Documents/StartPages/terminal-startpage/index.html",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/autostart",
-				"/usr/share/rofi/themes/c64.rasi",
-				"/home/dobbie/.config/rofi/config",
-				"/home/dobbie/Documents/archlabs",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/environment",
-				"/home/dobbie/.config/polybar/transparentdarkconfig",
-				"/home/dobbie/.mozilla/firefox/profiles.ini",
-				"/home/dobbie/.config/polybar/update.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/scripts/aur-update.sh",
-				"/home/dobbie/.config/polybar/pavolume.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/config-i3",
-				"/home/dobbie/.config/polybar/restart.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/menu.xml",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/root/customize_airootfs.sh",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/Tomorrow.tmTheme",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/ocean-dark.tmTheme",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/launch-ob-polybar.sh",
-				"/home/dobbie/.config/dmenu/dmenu-bind.sh",
-				"/home/dobbie/.zshrc.pre-oh-my-zsh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/usr/bin/cleanup.sh",
-				"/home/dobbie/.gtkrc-2.0",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/packages.x86_64",
-				"/home/dobbie/.config/skippy-xd/skippy-xd.rc",
-				"/home/dobbie/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/dobbie/.config/sublime-text-3/Local/Session.sublime_session",
-				"/etc/xdg/skippy-xd.rc",
-				"/home/dobbie/.ncmpcpp/art.sh",
-				"/home/dobbie/.bin/ascii",
-				"/home/dobbie/Documents/Sourceforge Instructions",
-				"/home/dobbie/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
-				"/home/dobbie/.config/xfce4/desktop/icons.screen0-5104x2144.rc",
-				"/home/dobbie/.config/dunst/dunstrc.light",
-				"/home/dobbie/Downloads/archlabs-meta-all.sh",
-				"/home/dobbie/.config/neofetch/config2",
-				"/home/dobbie/Downloads/ASCII",
-				"/bin/ASCII",
-				"/home/dobbie/Downloads/Arc_OSX/openbox-3/themerc",
-				"/home/dobbie/info.sh",
-				"/home/dobbie/.config/polybar/bottom.config",
-				"/home/dobbie/.config/dunst/sound.sh",
-				"/home/dobbie/script2",
-				"/home/dobbie/Documents/ARCHLabs+4 Configs/ARCHLabs/bin/al-xinerama-prop",
-				"/home/dobbie/dobbie03.github.io/index.html",
-				"/home/dobbie/.config/polybar/darkpanel-config",
-				"/home/dobbie/.config/polybar/hideIt.sh",
-				"/home/dobbie/.xsessionrc",
-				"/home/dobbie/.config/polybar/darkwallpaper.config",
-				"/usr/bin/al-obthemes",
-				"/home/dobbie/.config/polybar/transparent.config",
-				"/home/dobbie/.config/polybar/transparent-config",
-				"/home/dobbie/.config/polybar/mail",
-				"/home/dobbie/.config/polybar/play-dark.py",
-				"/home/dobbie/.config/polybar/mpris-dark.sh",
-				"/home/dobbie/.config/polybar/pause-dark.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/polybar/lastfm_love.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/polybar/mail",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/audacious/config",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/conky/scripts/dropbox/dropbox.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/conky/scripts/gmail.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/deadbeef/config",
-				"/home/dobbie/.config/polybar/aconfig",
-				"/home/dobbie/.config/polybar/config.mpd",
-				"/home/dobbie/NerdyPepper.github.io/OneDark/index.html",
-				"/home/dobbie/.config/openbox/menu-obmenu-generator.xml"
-			],
-			"find":
-			{
-				"height": 77.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"tab"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 42.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"menu_visible": true,
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"replace":
-			{
-				"height": 78.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": false,
-			"side_bar_width": 249.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 3202.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"Conky",
-						"Conky"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/dobbie/.config/openbox/menu.xml",
-					"settings":
-					{
-						"buffer_size": 29345,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/dunst/dunstrc",
-					"settings":
-					{
-						"buffer_size": 7138,
-						"encoding": "UTF-8",
-						"line_ending": "Unix",
-						"name": "# vim: ft=cfg"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/openbox/rc.xml",
-					"settings":
-					{
-						"buffer_size": 36880,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.scr",
-					"settings":
-					{
-						"buffer_size": 622,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.zshrc",
-					"settings":
-					{
-						"buffer_size": 5725,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.dotiirc",
-					"settings":
-					{
-						"buffer_size": 3767,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.Xresources",
-					"settings":
-					{
-						"buffer_size": 3901,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.al.sh",
-					"settings":
-					{
-						"buffer_size": 1517,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/polybar/config",
-					"settings":
-					{
-						"buffer_size": 3443,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/polybar/master.conf",
-					"settings":
-					{
-						"buffer_size": 1767,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/polybar/modules.conf",
-					"settings":
-					{
-						"buffer_size": 17378,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/bin/al-kb-pipemenu",
-					"settings":
-					{
-						"buffer_size": 3638,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/dobbie/.config/compton.conf",
-					"settings":
-					{
-						"buffer_size": 2488,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 80.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"",
-						"Preferences: Settings"
-					],
-					[
-						"settin",
-						"Preferences: Settings"
-					],
-					[
-						"settings",
-						"Preferences: Settings"
-					],
-					[
-						"sett",
-						"Preferences: Settings"
-					]
-				],
-				"width": 648.0
-			},
-			"console":
-			{
-				"height": 126.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": true,
-				"show_tabs": true,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/dobbie/dots/home-configs/.Xresources",
-				"/home/dobbie/.config/neofetch/config",
-				"/home/dobbie/.config/termite/config",
-				"/home/dobbie/.zshrc",
-				"/home/dobbie/.config/dunst/dunstrc-Matt",
-				"/home/dobbie/.mozilla/firefox/971hma3a.dev-edition-default/chrome/userChrome.css",
-				"/home/dobbie/.xinitrc",
-				"/home/dobbie/.config/qutebrowser/config.py",
-				"/home/dobbie/Templates/script.sh",
-				"/home/dobbie/.Xresources",
-				"/home/dobbie/.config/compton.conf",
-				"/home/dobbie/.mozilla/firefox/ej1jaon2.default/chrome/userChrome.css",
-				"/home/dobbie/al.sh",
-				"/home/dobbie/.al.sh",
-				"/home/dobbie/.config/i3/config",
+				"/home/dobbie/.config/glava/rc.glsl",
+				"/run/media/dobbie/7C5E-B48B/openbox/menu.xml",
 				"/home/dobbie/.config/openbox/rc.xml",
-				"/home/dobbie/.config/polybar/config",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/ocean-light.tmTheme",
-				"/home/dobbie/.config/geany/colorschemes/base16-ocean.dark.conf",
-				"/home/dobbie/.config/openbox/_menu.xml",
-				"/etc/pam.d/i3lock",
-				"/home/dobbie/.bin/email",
-				"/home/dobbie/almighty-dotfiles/.config/openbox/autostart",
-				"/home/dobbie/.config/dunst/dunstrc",
-				"/home/dobbie/.config/openbox/autostart",
 				"/home/dobbie/.config/openbox/menu.xml",
-				"/home/dobbie/Nylas-Arc-Dark-Theme/styles/ui-variables.less",
-				"/home/dobbie/.ncmpcpp/config",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/config-openbox",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs-trusted",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.Xresources",
-				"/home/dobbie/.config/conky/Arch_Panel_Star_Sign_4K_ArchLabs_Dark.conkyrc",
-				"/home/dobbie/.config/tint2/scripts/tnt2_weather.sh",
-				"/tmp/11798-14832-1ec7dni.ospj.log",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/scripts/pkg.sh",
-				"/home/dobbie/.config/polybar/pkg.sh",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/PKGBUILD",
-				"/home/dobbie/.cache/.fr-IaZwxI/.PKGINFO",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs-keyring.install",
-				"/home/dobbie/.config/polybar/Pause.py",
-				"/home/dobbie/.config/polybar/Play.py",
-				"/bin/al-help-pipemenu",
-				"/home/dobbie/.xscreensaver",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-keyring/archlabs.gpg",
-				"/home/dobbie/Archlabs-PKGBUILD/archlabs-keyring/archlabs-trusted",
-				"/home/dobbie/Documents/subkey.gpg",
-				"/home/dobbie/.config/conky/Arch_Panel_Star_Sign_4K.conkyrc",
-				"/home/dobbie/Downloads/seethru.config",
+				"/home/dobbie/.bin/welcome.sh",
+				"/run/media/dobbie/7C5E-B48B/welcome-live.txt",
+				"/home/dobbie/welcome.sh",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-browsers-pipemenu",
+				"/home/dobbie/.scr",
+				"/home/dobbie/dmenu.sh",
 				"/home/dobbie/.config/polybar/mpris.sh",
-				"/home/dobbie/.config/polybar/network.sh",
-				"/home/dobbie/.config/conky/spber.conkyrc",
-				"/home/dobbie/.config/tint2/themes/flatstudio.tnt2rc",
-				"/home/dobbie/.config/polybar/polybar.sh",
-				"/home/dobbie/.config/pcmanfm/default/pcmanfm.conf",
-				"/home/dobbie/dots/scripts/popup/popup.sh",
-				"/home/dobbie/Downloads/al-focus",
-				"/home/dobbie/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml",
-				"/home/dobbie/script.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/usr/bin/al-hello",
-				"/home/dobbie/.config/tint2/playerctl.tintrc",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/rc.xml",
-				"/home/dobbie/Downloads/script-choices.sh",
-				"/home/dobbie/temp/PKGBUILD",
-				"/home/dobbie/Downloads/post",
-				"/home/dobbie/Documents/StartPages/terminal-startpage/index.html",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/autostart",
-				"/usr/share/rofi/themes/c64.rasi",
-				"/home/dobbie/.config/rofi/config",
-				"/home/dobbie/Documents/archlabs",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/environment",
-				"/home/dobbie/.config/polybar/transparentdarkconfig",
-				"/home/dobbie/.mozilla/firefox/profiles.ini",
-				"/home/dobbie/.config/polybar/update.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/scripts/aur-update.sh",
-				"/home/dobbie/.config/polybar/pavolume.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/config-i3",
-				"/home/dobbie/.config/polybar/restart.sh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/openbox/menu.xml",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/root/customize_airootfs.sh",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/Tomorrow.tmTheme",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/ocean-dark.tmTheme",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/etc/skel/.config/polybar/launch-ob-polybar.sh",
+				"/home/dobbie/.config/openbox/welcome.txt",
+				"/home/dobbie/.config/polybar/modules.conf",
+				"/home/dobbie/.config/polybar/scripts/network.sh",
+				"/home/dobbie/Screenshots/archlabs-welcome.txt",
 				"/home/dobbie/.config/dmenu/dmenu-bind.sh",
-				"/home/dobbie/.zshrc.pre-oh-my-zsh",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/airootfs/usr/bin/cleanup.sh",
-				"/home/dobbie/.gtkrc-2.0",
-				"/home/dobbie/archlabs-linux-minimo-code/archiso/packages.x86_64",
-				"/home/dobbie/.config/skippy-xd/skippy-xd.rc",
-				"/home/dobbie/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-				"/home/dobbie/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/dobbie/.config/sublime-text-3/Local/Session.sublime_session",
-				"/etc/xdg/skippy-xd.rc",
-				"/home/dobbie/.ncmpcpp/art.sh",
-				"/home/dobbie/.bin/ascii",
+				"/home/dobbie/.config/conky/CB-Right.conkyrc",
+				"/home/dobbie/Documents/welcome-live.txt",
+				"/home/dobbie/.config/openbox/autostart",
+				"/home/dobbie/Documents/welcome-live2.txt",
 				"/home/dobbie/Documents/Sourceforge Instructions",
-				"/home/dobbie/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml",
-				"/home/dobbie/.config/xfce4/desktop/icons.screen0-5104x2144.rc",
-				"/home/dobbie/.config/dunst/dunstrc.light",
-				"/home/dobbie/Downloads/archlabs-meta-all.sh",
-				"/home/dobbie/.config/neofetch/config2",
-				"/home/dobbie/Downloads/ASCII",
-				"/bin/ASCII",
-				"/home/dobbie/Downloads/Arc_OSX/openbox-3/themerc",
-				"/home/dobbie/info.sh",
-				"/home/dobbie/.config/polybar/bottom.config",
-				"/home/dobbie/.config/dunst/sound.sh",
-				"/home/dobbie/script2",
-				"/home/dobbie/Documents/ARCHLabs+4 Configs/ARCHLabs/bin/al-xinerama-prop",
+				"/home/dobbie/Documents/archlabs",
+				"/home/dobbie/dots/README.md",
+				"/home/dobbie/.bin/update",
+				"/run/media/dobbie/7C5E-B48B/textfile.txt",
+				"/run/media/dobbie/7C5E-B48B/helpfile-menu.txt",
+				"/home/dobbie/.config/rofi/config",
+				"/home/dobbie/.config/dunst/dunstrc",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-places-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-editors-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-files-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-filesharing-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-games-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-graphics-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-mail-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-media-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-messaging-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-terminal-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-office-pipemenu",
+				"/home/dobbie/.config/polybar/master.conf",
+				"/home/dobbie/.config/polybar/transparentdarkconfig",
+				"/home/dobbie/.config/polybar/config",
+				"/bin/scrot",
+				"/home/dobbie/.config/polybar/icons",
+				"/home/dobbie/.zshrc",
+				"/home/dobbie/.config/termite/config",
+				"/home/dobbie/st/st.h",
+				"/home/dobbie/.Xresources",
+				"/home/dobbie/.bin/volume",
+				"/home/dobbie/.bin/rofi-apps",
+				"/home/dobbie/.bin/clock",
+				"/home/dobbie/.config/conky/geekusweather.conkyrc",
+				"/home/dobbie/.config/conky/scripts/gmail.sh",
+				"/home/dobbie/GitHub/startpages/NerdyPepper.github.io/index.html",
+				"/home/dobbie/.config/jgmenu/append.csv",
+				"/home/dobbie/.config/jgmenu/jgmenurc",
+				"/home/dobbie/.config/openbox/Main Menu Backup 9-01-18.xml",
+				"/etc/pacman.conf",
+				"/home/dobbie/.CoverGloobus/themes/Covergloobus Square Mod Product Sans 4k/skin.xml",
+				"/home/dobbie/.config/lemonbar/config_bar",
+				"/home/dobbie/.config/compton.conf",
+				"/home/dobbie/archlabs-themes/README.md",
 				"/home/dobbie/dobbie03.github.io/index.html",
-				"/home/dobbie/.config/polybar/darkpanel-config",
-				"/home/dobbie/.config/polybar/hideIt.sh",
-				"/home/dobbie/.xsessionrc",
-				"/home/dobbie/.config/polybar/darkwallpaper.config",
-				"/usr/bin/al-obthemes",
-				"/home/dobbie/.config/polybar/transparent.config",
-				"/home/dobbie/.config/polybar/transparent-config",
-				"/home/dobbie/.config/polybar/mail",
-				"/home/dobbie/.config/polybar/play-dark.py",
-				"/home/dobbie/.config/polybar/mpris-dark.sh",
-				"/home/dobbie/.config/polybar/pause-dark.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/polybar/lastfm_love.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/polybar/mail",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/audacious/config",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/conky/scripts/dropbox/dropbox.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/conky/scripts/gmail.py",
-				"/home/dobbie/Downloads/dobbies-dots-master/.config/deadbeef/config",
-				"/home/dobbie/.config/polybar/aconfig",
-				"/home/dobbie/.config/polybar/config.mpd"
+				"/home/dobbie/.config/conky/conky-sessionfile",
+				"/bin/al-conkyzen",
+				"/home/dobbie/.config/deadbeef/config",
+				"/etc/skel/.config/conky/ArchLabs.conkyrc",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/gtk-dark.css",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/gtk.css",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/dist/gtk-dark.css",
+				"/etc/skel/.config/openbox/menu.xml",
+				"/tmp/118110-22050-17vl8vc.203v.log",
+				"/tmp/118110-22050-ufasfr.3371r.log",
+				"/tmp/118110-22050-qtfywg.pc60j.log",
+				"/tmp/118110-5237-1j5nd87.3q31l.log",
+				"/home/dobbie/Archlabs-User-Home/home/.config/openbox/menu.xml",
+				"/home/dobbie/.config/rofi/rofi.sh",
+				"/home/dobbie/glava/shaders/rc.glsl",
+				"/home/dobbie/glava/shaders/bars/1.frag",
+				"/home/dobbie/glava/glava",
+				"/home/dobbie/NerdyPepper.github.io/index.html",
+				"/home/dobbie/.config/dunst/_dunstrc_",
+				"/home/dobbie/t2",
+				"/bin/rofi-launcher",
+				"/home/dobbie/.bashrc",
+				"/home/dobbie/st/config.h",
+				"/home/dobbie/st/config.def.h",
+				"/home/dobbie/.config/rofi/sidestyle.rofi",
+				"/home/dobbie/.config/dunst/notify",
+				"/home/dobbie/.config/openbox/menu15.01.18backup.xml",
+				"/home/dobbie/.config/lemonbar/peels.sh",
+				"/home/dobbie/toggle.sh",
+				"/home/dobbie/.thunderbird/jvt2ue8g.default/chrome/userChrome.css",
+				"/home/dobbie/.config/lemonbar/citrus.sh",
+				"/home/dobbie/.config/lemonbar/bar.sh",
+				"/home/dobbie/.config/lemonbar/bar2",
+				"/home/dobbie/.config/kitty/kitty.conf",
+				"/home/dobbie/Downloads/AndromedaScript-Linux-3.2/start_andromeda.sh",
+				"/home/dobbie/.config/dunst/_dunstrc",
+				"/home/dobbie/.config/conky/conkybottompanel.conkyrc",
+				"/home/dobbie/dots/home-configs/.mozilla/971hma3a.dev-edition-default/Tree Style Tabs Config",
+				"/home/dobbie/.config/vivaldi-flags.conf",
+				"/opt/vivaldi/vivaldi",
+				"/home/dobbie/.config/sublime-text-3/Packages/User/Nord.tmTheme",
+				"/home/dobbie/.config/sublime-text-3/Packages/User/Nord.skins",
+				"/home/dobbie/.SpaceVim.d/init.vim",
+				"/home/dobbie/.mozilla/firefox/971hma3a.dev-edition-default/chrome/userChrome.css",
+				"/etc/hostname",
+				"/home/dobbie/.SpaceVim/init.vim",
+				"/home/dobbie/.SpaceVim/ginit.vim",
+				"/home/dobbie/.SpaceVim/.editorconfig",
+				"/home/dobbie/.SpaceVim/config/init.vim",
+				"/home/dobbie/.SpaceVim/config/main.vim",
+				"/home/dobbie/.SpaceVim/config/general.vim",
+				"/home/dobbie/.SpaceVim/autoload/SpaceVim.vim",
+				"/home/dobbie/.SpaceVim/.SpaceVim.d/init.vim",
+				"/home/dobbie/.SpaceVim/vimrc",
+				"/home/dobbie/.viminfo",
+				"/home/dobbie/.vim/.SpaceVim.d/init.vim",
+				"/home/dobbie/Archlabs-User-Home/etc/X11/xorg.conf.d/40-touchpad.conf",
+				"/home/dobbie/.config/Thunar/uca.xml",
+				"/etc/makepkg.conf",
+				"/etc/yaourtrc",
+				"/home/dobbie/.config/chromium-flags.conf",
+				"/home/dobbie/vol.sh",
+				"/home/dobbie/.config/i3/config",
+				"/home/dobbie/.config/polybar/scripts/toggle-redshift"
 			],
 			"find":
 			{
@@ -611,6 +232,68 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"PATH",
+					"ISO_USER",
+					"/>\n",
+					">\n",
+					">\"\n",
+					"eth",
+					"date",
+					"mail",
+					"8fA1B3",
+					"DFE1E8",
+					"mail",
+					"st",
+					"titl",
+					"f1",
+					"click",
+					"deadbee",
+					"ncmp",
+					">\n",
+					"dark",
+					"dead",
+					"mail",
+					"gmail",
+					"glsl",
+					"#request setxwintype ",
+					"neofetch",
+					"system",
+					"choose",
+					"PS1",
+					"atom",
+					"eeeeee",
+					"subl3",
+					"GOTO 580",
+					"GOTO 370",
+					"GOTO 250",
+					"GOTO 125",
+					"micro:pixelsize=8",
+					"PF Tempesta Five Condensed",
+					"Edges:pixelsize=9",
+					"Edges:pixelsize=17",
+					"guten",
+					"menu",
+					"2b3635",
+					"f0f0f0",
+					"font",
+					"mpd",
+					"volume-bar",
+					"colors.secondary",
+					"mpd",
+					"embed",
+					"new",
+					"143,161,179,",
+					"8fa876",
+					"143,161,179",
+					"207,207,207,",
+					"292929",
+					"volume",
+					"dobbie",
+					"rofi",
+					"menu",
+					"time",
+					"clock",
+					"menu",
 					"font",
 					"size=11",
 					";\n",
@@ -676,25 +359,7 @@
 					"rofi",
 					"ArchLabs",
 					"volume",
-					"networkmanager",
-					"menu",
-					"none",
-					"C5C8C6",
-					"override-redirect",
-					"time",
-					"play",
-					"C5C8C6",
-					"xtitle",
-					"chromium",
-					".config/mpd/",
-					"sharad",
-					"/dobbie/.conky/",
-					"aesdana",
-					"/.conky/",
-					",",
-					"--",
-					"tray",
-					"ctrl"
+					"networkmanager"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -702,6 +367,772 @@
 				"regex": false,
 				"replace_history":
 				[
+					"dobbie",
+					"3b4252",
+					"eceff4",
+					"subl3",
+					"3b4252",
+					"atom",
+					"GOTO 615",
+					"GOTO 405",
+					"GOTO 280",
+					"GOTO 160",
+					"Edges:pixelsize=19",
+					"Edges:pixelsize=27",
+					"DFE1E8",
+					"1F2326",
+					"colors.foreground",
+					"43,48,59,",
+					"8FA1B3",
+					"143,161,179,",
+					"143,161,179",
+					"2B303B",
+					"size=9",
+					"urxvt",
+					"223, 225, 232,",
+					"IBM Plex Sans",
+					"DFE1E8",
+					"81A2BE",
+					"2B303B",
+					"DFE1E8",
+					"2B303B",
+					"DFE1E8",
+					"",
+					"DFE1E8",
+					"81A2BE",
+					"ArchLabs-Light",
+					"81A2BE",
+					"DobbieBang",
+					"FFFFFF",
+					"454545",
+					"exo-open --launch WebBrowser",
+					".mpd/",
+					".mpd",
+					"dobbie",
+					"/dobbie/.config/conky/",
+					"dobbie",
+					"/.config/conky/",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 750.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 570.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 249.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Conky",
+						"Conky"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/dobbie/.zshrc",
+					"settings":
+					{
+						"buffer_size": 3906,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/hosts",
+					"settings":
+					{
+						"buffer_size": 34654,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.xinitrc",
+					"settings":
+					{
+						"buffer_size": 1497,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.Xresources",
+					"settings":
+					{
+						"buffer_size": 3643,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/st/README.md",
+					"settings":
+					{
+						"buffer_size": 690,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/st/config.h",
+					"settings":
+					{
+						"buffer_size": 23120,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/termite/config",
+					"settings":
+					{
+						"buffer_size": 1478,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/hostname",
+					"settings":
+					{
+						"buffer_size": 7,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/arch-release",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/os-release",
+					"settings":
+					{
+						"buffer_size": 211,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/usr/lib/os-release",
+					"settings":
+					{
+						"buffer_size": 211,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/bin/al-help-pipemenu",
+					"settings":
+					{
+						"buffer_size": 3746,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/openbox/menu.xml",
+					"settings":
+					{
+						"buffer_size": 7194,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/dunst/dunstrc",
+					"settings":
+					{
+						"buffer_size": 6996,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/conky/CB-Right.conkyrc",
+					"settings":
+					{
+						"buffer_size": 5811,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/sublime-text-3/Packages/User/Sandy.tmTheme",
+					"settings":
+					{
+						"buffer_size": 11053,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/usr/bin/ufetch",
+					"settings":
+					{
+						"buffer_size": 1316,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/st/config.def.h",
+					"settings":
+					{
+						"buffer_size": 23120,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/openbox/autostart",
+					"settings":
+					{
+						"buffer_size": 2448,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.steam/steam/steamdeps.txt",
+					"settings":
+					{
+						"buffer_size": 826,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/dobbie/.steam/steam/steam.sh",
+					"settings":
+					{
+						"buffer_size": 27749,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 3531,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/polybar/master.conf",
+					"settings":
+					{
+						"buffer_size": 2564,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/polybar/modules.conf",
+					"settings":
+					{
+						"buffer_size": 17808,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/conky/ArchLabsClock.conkyrc",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/openbox/rc.xml",
+					"settings":
+					{
+						"buffer_size": 37958,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/compton.conf",
+					"settings":
+					{
+						"buffer_size": 2545,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/openbox/menu.backup",
+					"settings":
+					{
+						"buffer_size": 22377,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/etc/environment",
+					"settings":
+					{
+						"buffer_size": 136,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dobbie/.config/polybar/icons",
+					"settings":
+					{
+						"buffer_size": 2515,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 588.0,
+				"last_filter": "me",
+				"selected_items":
+				[
+					[
+						"me",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"UI",
+						"UI: Select Theme"
+					],
+					[
+						" control",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Install Package Control"
+					],
+					[
+						"settin",
+						"Preferences: Settings"
+					],
+					[
+						"settings",
+						"Preferences: Settings"
+					],
+					[
+						"sett",
+						"Preferences: Settings"
+					]
+				],
+				"width": 666.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": true,
+				"show_tabs": true,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/dobbie/.CoverGloobus/themes/Covergloobus Square Mod Product Sans 4k/skin.xml",
+				"/home/dobbie/.CoverGloobus/themes/Jane Austen 4k Sandy Cover/skin.xml",
+				"/home/dobbie/Downloads/Last.fm2 for Covergloobus/Last.fm2/skin.xml",
+				"/home/dobbie/.CoverGloobus/themes/Jane Austen 4k Sandy/skin.xml",
+				"/home/dobbie/Downloads/Round/skin.xml",
+				"/home/dobbie/.steam/steam.pid",
+				"/etc/host.conf",
+				"/home/dobbie/.config/Min/Preferences",
+				"/home/dobbie/.config/chromium-flags.conf",
+				"/home/dobbie/Downloads/Pollen-master/README.md",
+				"/etc/vconsole.conf",
+				"/home/dobbie/sysinfo.sh",
+				"/home/dobbie/.Xresources",
+				"/home/dobbie/.config/neofetch/config",
+				"/home/dobbie/.config/glava/rc.glsl",
+				"/run/media/dobbie/7C5E-B48B/openbox/menu.xml",
+				"/home/dobbie/.config/openbox/rc.xml",
+				"/home/dobbie/.config/openbox/menu.xml",
+				"/home/dobbie/.bin/welcome.sh",
+				"/run/media/dobbie/7C5E-B48B/welcome-live.txt",
+				"/home/dobbie/welcome.sh",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-browsers-pipemenu",
+				"/home/dobbie/.scr",
+				"/home/dobbie/dmenu.sh",
+				"/home/dobbie/.config/polybar/mpris.sh",
+				"/home/dobbie/.config/openbox/welcome.txt",
+				"/home/dobbie/.config/polybar/modules.conf",
+				"/home/dobbie/.config/polybar/scripts/network.sh",
+				"/home/dobbie/Screenshots/archlabs-welcome.txt",
+				"/home/dobbie/.config/dmenu/dmenu-bind.sh",
+				"/home/dobbie/.config/conky/CB-Right.conkyrc",
+				"/home/dobbie/Documents/welcome-live.txt",
+				"/home/dobbie/.config/openbox/autostart",
+				"/home/dobbie/Documents/welcome-live2.txt",
+				"/home/dobbie/Documents/Sourceforge Instructions",
+				"/home/dobbie/Documents/archlabs",
+				"/home/dobbie/dots/README.md",
+				"/home/dobbie/.bin/update",
+				"/run/media/dobbie/7C5E-B48B/textfile.txt",
+				"/run/media/dobbie/7C5E-B48B/helpfile-menu.txt",
+				"/home/dobbie/.config/rofi/config",
+				"/home/dobbie/.config/dunst/dunstrc",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-places-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-editors-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-files-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-filesharing-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-games-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-graphics-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-mail-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-media-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-messaging-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-terminal-pipemenu",
+				"/home/dobbie/Archlabs-Pipemenus/stable/al-office-pipemenu",
+				"/home/dobbie/.config/polybar/master.conf",
+				"/home/dobbie/.config/polybar/transparentdarkconfig",
+				"/home/dobbie/.config/polybar/config",
+				"/bin/scrot",
+				"/home/dobbie/.config/polybar/icons",
+				"/home/dobbie/.zshrc",
+				"/home/dobbie/.config/termite/config",
+				"/home/dobbie/st/st.h",
+				"/home/dobbie/.bin/volume",
+				"/home/dobbie/.bin/rofi-apps",
+				"/home/dobbie/.bin/clock",
+				"/home/dobbie/.config/conky/geekusweather.conkyrc",
+				"/home/dobbie/.config/conky/scripts/gmail.sh",
+				"/home/dobbie/GitHub/startpages/NerdyPepper.github.io/index.html",
+				"/home/dobbie/.config/jgmenu/append.csv",
+				"/home/dobbie/.config/jgmenu/jgmenurc",
+				"/home/dobbie/.config/openbox/Main Menu Backup 9-01-18.xml",
+				"/etc/pacman.conf",
+				"/home/dobbie/.config/lemonbar/config_bar",
+				"/home/dobbie/.config/compton.conf",
+				"/home/dobbie/archlabs-themes/README.md",
+				"/home/dobbie/dobbie03.github.io/index.html",
+				"/home/dobbie/.config/conky/conky-sessionfile",
+				"/bin/al-conkyzen",
+				"/home/dobbie/.config/deadbeef/config",
+				"/etc/skel/.config/conky/ArchLabs.conkyrc",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/gtk-dark.css",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/gtk.css",
+				"/usr/share/themes/ArchLabs-Google-Dark/gtk-3.20/dist/gtk-dark.css",
+				"/etc/skel/.config/openbox/menu.xml",
+				"/tmp/118110-22050-17vl8vc.203v.log",
+				"/tmp/118110-22050-ufasfr.3371r.log",
+				"/tmp/118110-22050-qtfywg.pc60j.log",
+				"/tmp/118110-5237-1j5nd87.3q31l.log",
+				"/home/dobbie/Archlabs-User-Home/home/.config/openbox/menu.xml",
+				"/home/dobbie/.config/rofi/rofi.sh",
+				"/home/dobbie/glava/shaders/rc.glsl",
+				"/home/dobbie/glava/shaders/bars/1.frag",
+				"/home/dobbie/glava/glava",
+				"/home/dobbie/NerdyPepper.github.io/index.html",
+				"/home/dobbie/.config/dunst/_dunstrc_",
+				"/home/dobbie/t2",
+				"/bin/rofi-launcher",
+				"/home/dobbie/.bashrc",
+				"/home/dobbie/st/config.h",
+				"/home/dobbie/st/config.def.h",
+				"/home/dobbie/.config/rofi/sidestyle.rofi",
+				"/home/dobbie/.config/dunst/notify",
+				"/home/dobbie/.config/openbox/menu15.01.18backup.xml",
+				"/home/dobbie/.config/lemonbar/peels.sh",
+				"/home/dobbie/toggle.sh",
+				"/home/dobbie/.thunderbird/jvt2ue8g.default/chrome/userChrome.css",
+				"/home/dobbie/.config/lemonbar/citrus.sh",
+				"/home/dobbie/.config/lemonbar/bar.sh",
+				"/home/dobbie/.config/lemonbar/bar2",
+				"/home/dobbie/.config/kitty/kitty.conf",
+				"/home/dobbie/Downloads/AndromedaScript-Linux-3.2/start_andromeda.sh",
+				"/home/dobbie/.config/dunst/_dunstrc",
+				"/home/dobbie/.config/conky/conkybottompanel.conkyrc",
+				"/home/dobbie/dots/home-configs/.mozilla/971hma3a.dev-edition-default/Tree Style Tabs Config",
+				"/home/dobbie/.config/vivaldi-flags.conf",
+				"/opt/vivaldi/vivaldi",
+				"/home/dobbie/.config/sublime-text-3/Packages/User/Nord.tmTheme",
+				"/home/dobbie/.config/sublime-text-3/Packages/User/Nord.skins",
+				"/home/dobbie/.SpaceVim.d/init.vim",
+				"/home/dobbie/.mozilla/firefox/971hma3a.dev-edition-default/chrome/userChrome.css",
+				"/etc/hostname",
+				"/home/dobbie/.SpaceVim/init.vim",
+				"/home/dobbie/.SpaceVim/ginit.vim",
+				"/home/dobbie/.SpaceVim/.editorconfig",
+				"/home/dobbie/.SpaceVim/config/init.vim",
+				"/home/dobbie/.SpaceVim/config/main.vim",
+				"/home/dobbie/.SpaceVim/config/general.vim",
+				"/home/dobbie/.SpaceVim/autoload/SpaceVim.vim",
+				"/home/dobbie/.SpaceVim/.SpaceVim.d/init.vim"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"1F2326",
+					"DFE1E8",
+					"1F2326",
+					"1D1F21",
+					"F5F5F5",
+					"656565",
+					"compton",
+					"3b4252",
+					"eceff4",
+					"power",
+					"PATH",
+					"ISO_USER",
+					"/>\n",
+					">\n",
+					">\"\n",
+					"eth",
+					"date",
+					"mail",
+					"8fA1B3",
+					"DFE1E8",
+					"mail",
+					"st",
+					"titl",
+					"f1",
+					"click",
+					"deadbee",
+					"ncmp",
+					">\n",
+					"dark",
+					"dead",
+					"mail",
+					"gmail",
+					"glsl",
+					"#request setxwintype ",
+					"neofetch",
+					"system",
+					"choose",
+					"PS1",
+					"atom",
+					"eeeeee",
+					"subl3",
+					"GOTO 580",
+					"GOTO 370",
+					"GOTO 250",
+					"GOTO 125",
+					"micro:pixelsize=8",
+					"PF Tempesta Five Condensed",
+					"Edges:pixelsize=9",
+					"Edges:pixelsize=17",
+					"guten",
+					"menu",
+					"2b3635",
+					"f0f0f0",
+					"font",
+					"mpd",
+					"volume-bar",
+					"colors.secondary",
+					"mpd",
+					"embed",
+					"new",
+					"143,161,179,",
+					"8fa876",
+					"143,161,179",
+					"207,207,207,",
+					"292929",
+					"volume",
+					"dobbie",
+					"rofi",
+					"menu",
+					"time",
+					"clock",
+					"menu",
+					"font",
+					"size=11",
+					";\n",
+					"termite",
+					"temp",
+					"termite",
+					"visibility",
+					"mail",
+					"email",
+					"menu",
+					"folder",
+					"130, 130, 130",
+					"255, 255, 255,",
+					"Roboto",
+					"F0F0F0",
+					"7E7E7E",
+					"#",
+					"3D94E3",
+					"353945",
+					"404552",
+					"frame",
+					"centre",
+					"center",
+					"right",
+					"frame",
+					"b5b699",
+					"47575f",
+					"volume",
+					"pavolume",
+					"pkg",
+					"81A2BE",
+					"volume",
+					"3f506b",
+					"stippled_",
+					"cdbf9a",
+					"c1c1c1",
+					"1c1c1c",
+					"pkg",
+					"EFF0F1",
+					"ght",
+					"Pop",
+					"pkg",
+					"network",
+					"volume",
+					"time",
+					"clock",
+					"network",
+					"memory",
+					"network",
+					"next",
+					"previous",
+					"volume",
+					"rofi",
+					"menu",
+					"volume",
+					"network"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"3d3c3b",
+					"B6A49B",
+					"3D3C3B",
+					"B6A49B",
+					"3D3C3B",
+					"1D1F21",
+					"656565",
+					"F5F5F5",
+					"dobbie",
+					"3b4252",
+					"eceff4",
+					"subl3",
+					"3b4252",
+					"atom",
+					"GOTO 615",
+					"GOTO 405",
+					"GOTO 280",
+					"GOTO 160",
+					"Edges:pixelsize=19",
+					"Edges:pixelsize=27",
+					"DFE1E8",
+					"1F2326",
+					"colors.foreground",
+					"43,48,59,",
+					"8FA1B3",
+					"143,161,179,",
+					"143,161,179",
+					"2B303B",
 					"size=9",
 					"urxvt",
 					"223, 225, 232,",
@@ -738,77 +1169,128 @@
 			"groups":
 			[
 				{
-					"selected": 5,
+					"selected": 15,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/dobbie/.config/openbox/menu.xml",
+							"file": "/home/dobbie/.zshrc",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 29345,
+								"buffer_size": 3906,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										18703,
-										18703
+										3497,
+										3521
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/XML/XML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 22208.0,
+								"translation.y": 1539.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 18,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/dobbie/.config/dunst/dunstrc",
+							"file": "/etc/hosts",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7138,
+								"buffer_size": 34654,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										9,
-										13
+										34654,
+										34654
 									]
 								],
 								"settings":
 								{
-									"auto_name": "# vim: ft=cfg",
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 17,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/home/dobbie/.config/openbox/rc.xml",
+							"file": "/home/dobbie/.xinitrc",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 36880,
+								"buffer_size": 1497,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1341,
+										1341
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 22,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/dobbie/.Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3643,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2457,
+										2457
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2160.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/dobbie/st/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 690,
 								"regions":
 								{
 								},
@@ -821,32 +1303,342 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/XML/XML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 10424.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
-							"buffer": 3,
-							"file": "/home/dobbie/.scr",
+							"buffer": 5,
+							"file": "/home/dobbie/st/config.h",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 622,
+								"buffer_size": 23120,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										224,
-										224
+										3040,
+										3040
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2187.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/dobbie/.config/termite/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1478,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1278,
+										1278
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 821.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/etc/hostname",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 29,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/etc/arch-release",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 28,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/etc/os-release",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 211,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 27,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/usr/lib/os-release",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 211,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 26,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/bin/al-help-pipemenu",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3746,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										805,
+										805
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 324.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 25,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/home/dobbie/.config/openbox/menu.xml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7194,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5875,
+										5875
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 3688.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/home/dobbie/.config/dunst/dunstrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6996,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3723,
+										3723
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/home/dobbie/.config/conky/CB-Right.conkyrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5811,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										5811
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 486.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "/home/dobbie/.config/sublime-text-3/Packages/User/Sandy.tmTheme",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11053,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										764,
+										764
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "/usr/bin/ufetch",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1316,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										133,
+										133
 									]
 								],
 								"settings":
@@ -857,24 +1649,54 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 19,
 							"type": "text"
 						},
 						{
-							"buffer": 4,
-							"file": "/home/dobbie/.zshrc",
+							"buffer": 17,
+							"file": "/home/dobbie/st/config.def.h",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5725,
+								"buffer_size": 23120,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3637,
-										3637
+										2905,
+										2220
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2106.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 18,
+							"file": "/home/dobbie/.config/openbox/autostart",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2448,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1383,
+										1383
 									]
 								],
 								"settings":
@@ -882,27 +1704,27 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1944.0,
+								"translation.y": 891.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 14,
 							"type": "text"
 						},
 						{
-							"buffer": 5,
-							"file": "/home/dobbie/.dotiirc",
+							"buffer": 19,
+							"file": "/home/dobbie/.steam/steam/steamdeps.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3767,
+								"buffer_size": 826,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1536,
-										1536
+										0,
+										0
 									]
 								],
 								"settings":
@@ -913,24 +1735,137 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 13,
 							"type": "text"
 						},
 						{
-							"buffer": 6,
-							"file": "/home/dobbie/.Xresources",
+							"buffer": 20,
+							"file": "/home/dobbie/.steam/steam/steam.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3901,
+								"buffer_size": 27749,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1680,
-										1680
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 6642.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 21,
+							"file": "/home/dobbie/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3531,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2036,
+										2036
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 900.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 16,
+							"type": "text"
+						},
+						{
+							"buffer": 22,
+							"file": "/home/dobbie/.config/polybar/master.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2564,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2024,
+										2024
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1323.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 15,
+							"type": "text"
+						},
+						{
+							"buffer": 23,
+							"file": "/home/dobbie/.config/polybar/modules.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 17808,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4032,
+										4032
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4336.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 21,
+							"type": "text"
+						},
+						{
+							"buffer": 24,
+							"file": "/home/dobbie/.config/conky/ArchLabsClock.conkyrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1836,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1552,
+										1606
 									]
 								],
 								"settings":
@@ -941,128 +1876,16 @@
 								"translation.y": 1053.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 20,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
-							"file": "/home/dobbie/.al.sh",
+							"buffer": 25,
+							"file": "/home/dobbie/.config/openbox/rc.xml",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1517,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1421,
-										1421
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 12,
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/home/dobbie/.config/polybar/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3443,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2196,
-										2196
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 10,
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/home/dobbie/.config/polybar/master.conf",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1767,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1512,
-										1512
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 11,
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/home/dobbie/.config/polybar/modules.conf",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 17378,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3796,
-										3796
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 2360.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 9,
-							"type": "text"
-						},
-						{
-							"buffer": 11,
-							"file": "/bin/al-kb-pipemenu",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3638,
+								"buffer_size": 37958,
 								"regions":
 								{
 								},
@@ -1075,30 +1898,32 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 1601.0,
+								"translation.y": 31396.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 8,
+							"stack_index": 10,
 							"type": "text"
 						},
 						{
-							"buffer": 12,
+							"buffer": 26,
 							"file": "/home/dobbie/.config/compton.conf",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2488,
+								"buffer_size": 2545,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1547,
-										1547
+										575,
+										575
 									]
 								],
 								"settings":
@@ -1106,10 +1931,97 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 928.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 27,
+							"file": "/home/dobbie/.config/openbox/menu.backup",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 22377,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										20171,
+										20258
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 20338.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 28,
+							"file": "/etc/environment",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 136,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										136,
+										136
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 24,
+							"type": "text"
+						},
+						{
+							"buffer": 29,
+							"file": "/home/dobbie/.config/polybar/icons",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2515,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2119,
+										2119
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 6,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 23,
 							"type": "text"
 						}
 					]
@@ -1151,7 +2063,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,3924,121,7126,1996,7680,2160",
+			"position": "0,0,0,0,0,4047,100,6443,1767,7680,2160",
 			"project": "",
 			"replace":
 			{
@@ -1169,12 +2081,12 @@
 			},
 			"select_project":
 			{
-				"height": 0.0,
+				"height": 750.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 570.0
 			},
 			"select_symbol":
 			{
@@ -1193,7 +2105,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 249.0,
+			"side_bar_width": 328.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -1206,6 +2118,7 @@
 	{
 		"recent_workspaces":
 		[
+			"/home/dobbie/Projects/menu pipemenu.sublime-workspace"
 		]
 	}
 }
