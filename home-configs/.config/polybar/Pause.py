@@ -7,6 +7,6 @@ except :
     pass;
 
 if val == "Playing\n" :
-    print("%{F#DFE1E8}%{F-}")
+    print("%{F#b6a49b}%{F-}")
 else :
     print("")

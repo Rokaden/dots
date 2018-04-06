@@ -11,7 +11,7 @@ fi
 
 # Foreground color formatting tags are optional
 if [[ $player_status = "Playing" ]]; then
-    echo "%{F#DFE1E8}$icon  $metadata"       # Blue when playing
+    echo "%{F#eceff4}$icon  $metadata"       # Blue when playing
 elif [[ $player_status = "Paused" ]]; then
     echo "%{F#B13F47}$icon  $metadata"       # Green out info when paused
 else

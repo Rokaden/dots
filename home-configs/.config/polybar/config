@@ -1,110 +1,178 @@
-;=====================================================
-;     Includes
-;=====================================================
+[bar/bar]
+background = #D93d3c3b
+foreground = #b6a49b
+width                    = 24%
+height                   = 70
+radius                   = 15
+line-size                = 0
+bottom                   = true
+border-bottom-size       = 0
+padding-left             = 0
+padding-right            = 0
+#module-margin-left       = 1
+#module-margin-right      = 1
 
-[section/base]
-include-file = /home/dobbie/.config/polybar/master.conf
-include-file = /home/dobbie/.config/polybar/modules.conf
+fixed-center = true
+font-0 = San Francisco Display Regular:size=24;1
+font-1 = unifont:fontformat=truetype:size=24:antialias=false;0
+font-2 = "MaterialIcons:size=24:antialias=false;1"
+font-3 = "icomoon-extended-ultra:size=24:antialias=false;1"
+font-4 = "Ubuntu Nerd Font:size=24:antialias=false;1"
+font-5 = FontAwesome:size=24;1
 
+modules-left = 
+modules-center =
+modules-right = date volume eth poweroff 
+module-margin = 2
 
-;=====================================================
-;     i3 Bars
-;=====================================================
-
-[bar/i3-bar]
-inherit = bar/master
-
-; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = ${env:MONITOR:HDMI-A-0}
-
-modules-left = menu window_switch redshift caffeine i3-workspaces weather
-modules-center = music2
-modules-right = pkg memory temp cpu eth volume1 time rofi
-
-; All available modules (some require configuration in modules.conf)
-; redshift github filesystem mpd wired-network wireless-network battery menu volume-bar
-; pkg keyboard memory temperature coreuse network clock volume i3-workspaces workspaces window_switch
-
-
-;;;;;; Tray is commented out ;;;;;;;;
-;tray-position = center
-;tray-padding = 10
-;tray-background = ${colors.background}
-;tray-offset-x = 20%
-
-
-;=====================================================
-;     Openbox Bars
-;=====================================================
-
-[bar/ob-bar]
-inherit = bar/master
-
-; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = ${env:MONITOR:HDMI-A-0}
-
-modules-left = jgmenu window_switch redshift weather
-modules-center = music2
-modules-right = pkg mail memory temperature cpu eth volume1 time rofi
-
-; All available modules (some require configuration in modules.conf)
-; redshift github filesystem mpd wired-network wireless-network battery menu volume
-; menu pkg keyboard memory temperature coreuse network clock volume i3-workspaces workspaces window_switch music2 previous play pause next
-; music2 jgmenu
-
-;;;;;; Tray is commented out ;;;;;;;;
-;tray-position = center
-;tray-padding = 10
-;tray-background = ${colors.background}
-;tray-offset-x = 20%
-
-;=====================================================
-;	MPD Bar
-;=====================================================
-
-[bar/mpd-bar]
-inherit = bar/master
-
-; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor = ${env:MONITOR:HDMI-A-0}
-
-modules-left = menu window_switch redshift weather
-modules-center = mpd
-modules-right = pkg mail memory temperature cpu eth volume3 time rofi
-
-; All available modules (some require configuration in modules.conf)
-; redshift github filesystem mpd wired-network wireless-network battery menu volume
-; menu pkg keyboard memory temperature coreuse network clock volume i3-workspaces workspaces window_switch music2 previous play pause next
-; music2 jgmenu
-
-;;;;;; Tray is commented out ;;;;;;;;
-;tray-position = center
-;tray-padding = 10
-;tray-background = ${colors.background}
-;tray-offset-x = 20%
-
-;=====================================================
-;     Bspwm Bars
-;=====================================================
-
-[bar/bsp-bar]
-inherit = bar/master
-
-; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
-monitor =
-
-modules-left   = bspwm menu
-modules-center = music2
-modules-right  = pkg mail memory temperature cpu eth volume3 time rofi
-
-; All available modules (some require configuration in modules.conf)
-; redshift github filesystem mpd jgmenu wired-network wireless-network battery menu volume-bar bspwm
-; pkg keyboard memory temperature coreuse network clock volume i3-workspaces workspaces window_switch
+;left - center - right - none
+tray-position = none
+tray-maxsize = 24
+tray-detached = false
+tray-transparent = false
+tray-padding = 2
+tray-scale = 1.0
 
 
-;;;;;; Tray is commented out ;;;;;;;;
-;tray-position = center
-;tray-padding = 10
-;tray-background = ${colors.background}
-;tray-offset-x = 20%
- 
+override-redirect = true
+offset-x = 2900
+offset-y = 20
+
+padding = 0
+
+wm-name = bar
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+time = %l:%M %p
+label =    %date%      %time%
+;label =  %time%
+format-padding = 1
+
+
+[module/backlight]
+type = internal/xbacklight
+label = %percentage%%  
+
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+poll-interval = 0
+format-discharging = <label-discharging>  <ramp-capacity>
+format-full = <label-full>  <ramp-capacity>
+format-charging = <label-charging>  <ramp-capacity>  
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+
+[module/wlan]
+type = internal/network
+interface = wlan0
+interval = 5
+label-connected = %essid%  
+
+[module/wlan2]
+inherit = module/wlan
+interface = wlp1s0
+
+[module/volume]
+type = internal/volume
+format-volume =   <ramp-volume>  <label-volume>
+format-muted = 0%  
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+[module/poweroff]
+type = custom/script
+exec = echo "  "
+click-left = rofi -modi run,drun,window -show drun
+click-right = i3lock-fancy -pg &
+click-middle = /usr/bin/rofi-logout
+format-padding = 1
+
+[module/rofi]
+type = custom/script
+exec = echo "  "
+click-left = rofi -modi run,drun,window -show drun
+format-padding = 1
+
+[module/time]
+type = internal/date
+interval = 5
+label-foreground = #b6a49b
+date =
+date-alt = " %Y-%m-%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-prefix-foreground = #b6a49b
+;format-underline = #0a6cf5
+format-padding = 1
+label = %date% %time%
+
+[module/pkg]
+type                    = custom/script
+label                   = %output%
+tail                    = true
+label-padding           = 1
+exec                    = $HOME/.config/polybar/updates
+exec-if                 = "ping -c 1 8.8.8.8 > /dev/null"
+click-left              = urxvt --geometry 100x30 -e sudo pacman -Syyu &
+
+[module/play]
+type = custom/script
+exec = python3 ~/.config/polybar/Play.py
+format-padding = 1
+interval = 2
+format = <label>
+format-foreground = #b6a49b
+click-left = playerctl play
+click-right = playerctl pause
+
+[module/pause]
+type = custom/script
+exec = python3 ~/.config/polybar/Pause.py
+format-padding = 1
+format = <label>
+interval = 2
+format-foreground = #b6a49b
+click-left = playerctl pause
+
+[module/volume1]
+type = custom/script
+interval = 1
+label = %output%
+exec = $HOME/.config/polybar/pavolume.sh
+click-right = exec pavucontrol &
+click-left = $HOME/.config/polybar/pavolume.sh --togmute
+scroll-up = $HOME/.config/polybar/pavolume.sh --up
+scroll-down = $HOME/.config/polybar/pavolume.sh --down
+tail = true
+format-padding = 1
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 3.0
+format-connected = <label-connected>
+format-connected-prefix = "  "
+format-connected-prefix-foreground = #b6a49b
+label-connected = %downspeed:9%
+format-disconnected = <label-disconnected>
+label-disconnected = not connected
+label-disconnected-foreground = #66ffffff
+format-padding = 1
+
