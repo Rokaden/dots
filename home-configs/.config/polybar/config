@@ -1,52 +1,36 @@
 [bar/bar]
-background = #D93d3c3b
-foreground = #b6a49b
-width                    = 24%
-height                   = 70
-radius                   = 15
-line-size                = 0
-bottom                   = true
-border-bottom-size       = 0
-#module-margin-left       = 1
-#module-margin-right      = 1
+monitor = ${env:MONITOR:HDMI-A-0}
+dpi = 192
+include-file = ~/.config/polybar/bar
+background = #D92E3440
+foreground = #ECEFF4
 
-fixed-center = true
-font-0 = San Francisco Display Regular:size=24;5
-font-1 = unifont:fontformat=truetype:size=24:antialias=false;5
-font-2 = "MaterialIcons:size=24:antialias=false;5"
-font-3 = "icomoon-extended-ultra:size=24:antialias=false;5"
-font-4 = "Ubuntu Nerd Font:size=24:antialias=false;5"
-font-5 = FontAwesome:size=24;5
 
 modules-left = 
 modules-center =
-modules-right = date volume eth poweroff 
-padding-left             = 0
-padding-right            = 0
-module-margin-left       = 2
-module-margin-right      = 3
-
-;left - center - right - none
-tray-position = none
-tray-maxsize = 24
-tray-detached = false
-tray-transparent = false
-tray-padding = 2
-tray-scale = 1.0
+modules-right = updates pkg date volume eth poweroff 
 
 
-override-redirect = true
-offset-x = 2900
-offset-y = 20
-screenchange-reload      = true
-throttle-output          = 5
-throttle-output-for      = 10
-throttle-input-for       = 30
+[bar/bar2]
 monitor = ${env:MONITOR:HDMI-A-0}
+dpi = 192
+include-file = ~/.config/polybar/bar2
+background = #D92E3440
+foreground = #ECEFF4
+modules-left = music
+modules-center =
+modules-right = 
 
-padding = 0
+[bar/fullbar]
+monitor = ${env:MONITOR:HDMI-A-0}
+dpi = 192
+include-file = ~/.config/polybar/fullbar
+background = #D92E3440
+foreground = #ECEFF4
+modules-left = music
+modules-center =
+modules-right = pkg date volume eth poweroff
 
-wm-name = bar
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -175,10 +159,26 @@ interface = enp2s0
 interval = 3.0
 format-connected = <label-connected>
 format-connected-prefix = "  "
-format-connected-prefix-foreground = #b6a49b
+format-connected-prefix-foreground = #eceff4
 label-connected = %downspeed:9%
 format-disconnected = <label-disconnected>
 label-disconnected = not connected
 label-disconnected-foreground = #66ffffff
 format-padding = 1
 
+[module/music]
+type = custom/script
+interval = 2
+label = %output:0:305:...%
+label-padding = 1
+exec = ~/.config/polybar/mpris.sh
+click-left = playerctl pause
+click-right = playerctl play
+format-padding = 3
+
+
+[module/updates]
+type = custom/script
+exec = ~/.config/polybar/update.sh
+interval = 60
+format-padding = 1
