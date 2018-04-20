@@ -1,249 +1,247 @@
-<?xml version="1.0" encoding="utf-8"?>
-<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
-	<menu id="root-menu" label="Openbox 3">
-		<separator label="A R C H L A B S" />
-		<menu id="applications-menu" label="all apps">
-			<menu id="access-menu" label="Run">
-			<item label="Run...">
-			<action name="Execute">
-			<command>rofi -show combi</command>
-			<startupnotify>
-			<enabled>yes</enabled>
-			</startupnotify>
-		</action>
-	</item>
-</menu>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu>
+
+<menu id="applications-menu" label="all apps">
 	<separator/>
-	<menu execute="perl /home/dobbie/.config/openbox/scripts/obsysinfo.pl" id="sysinfo" label="System Info"/>
-		<separator/>
-		<menu id="main menu" label="Main Menu">
-			<separator label="APPLICATIONS" />
-		<menu execute="/bin/al-filemanagers-pipemenu" id="pipe-files" label="File"/>
-		<menu execute="/bin/al-editors-pipemenu" id="pipe-edit" label="Editors"/>
-		<menu execute="/bin/al-browsers-pipemenu" id="pipe-browser" label="Web"/>
-		<menu execute="/bin/al-terminals-pipemenu" id="pipe-term" label="Terminals"/>
-		<menu execute="/bin/al-media-pipemenu" id="pipe-media" label="Media"/>
-		<menu execute="/bin/al-filesharing-pipemenu" id="pipe-share" label="File Sharing"/>
-		<menu execute="/bin/al-office-pipemenu" id="pipe-office" label="Office"/>
-		<menu execute="/bin/al-messaging-pipemenu" id="pipe-messaging" label="Message"/>
-		<menu execute="/bin/al-graphics-pipemenu" id="pipe-graphics" label="Graphics"/>
-		<menu execute="/bin/al-recent-files-pipemenu" id="pipe-recentplaces" label="Recents"/>
-		<menu execute="/bin/al-places-pipemenu" id="pipe-places" label="Places"/>
+	<menu id="sysinfo" label="System Info" execute="perl /home/dobbie/.config/openbox/scripts/obsysinfo.pl"/>
+	<separator/>
+	<menu id="main menu" label="Main Menu">
+		<separator label="APPLICATIONS"/>
+		<menu id="pipe-files" label="File" execute="/bin/al-files-pipemenu"/>
+		<menu id="pipe-edit" label="Editors" execute="/bin/al-editors-pipemenu"/>
+		<menu id="pipe-browser" label="Web" execute="/bin/al-browsers-pipemenu"/>
+		<menu id="pipe-term" label="Terminals" execute="/bin/al-terminals-pipemenu"/>
+		<menu id="pipe-media" label="Media" execute="/bin/al-media-pipemenu"/>
+		<menu id="pipe-share" label="File Sharing" execute="/bin/al-filesharing-pipemenu"/>
+		<menu id="pipe-office" label="Office" execute="/bin/al-office-pipemenu"/>
+		<menu id="pipe-games" label="Games" execute="/bin/al-games-pipemenu"/>
+		<menu id="pipe-messaging" label="Message" execute="/bin/al-messaging-pipemenu"/>
+		<menu id="pipe-graphics" label="Graphics" execute="/bin/al-graphics-pipemenu"/>
 		<separator/>
 		<menu id="system-menu" label="System">
-			<separator label="CONFIGS" />
-					<item label="Edit menu.xml">
-					<action name="Execute">
-						<execute>subl3 ~/.config/openbox/menu.xml</execute>
-					</action>
-				</item>
-				<item label="Edit rc.xml">
-					<action name="Execute">
-						<execute>subl3 ~/.config/openbox/rc.xml</execute>
-					</action>
-				</item>
-				<item label="Edit autostart">
-					<action name="Execute">
-						<execute>subl3 ~/.config/openbox/autostart</execute>
-					</action>
-				</item>
-				<item label="Edit .Xresources">
-					<action name="Execute">
-						<execute>subl3 ~/.Xresources</execute>
-					</action>
-				</item>
-				<item label="Edit JGMenu">
-					<action name="Execute">
-						<execute>subl3 ~/.config/jgmenu/jgmenurc</execute>
-					</action>
-				</item>
-				<item label="Edit .zshrc">
-					<action name="Execute">
-						<execute>subl3 ~/.zshrc</execute>
-					</action>
-				</item>
-				<item label="Edit compton.conf">
-					<action name="Execute">
-						<execute>subl3 ~/.config/compton.conf</execute>
-					</action>
-				</item>
-				<item label="Edit pacman.conf">
-					<action name="Execute">
-						<execute>gksu geany /etc/pacman.conf</execute>
-					</action>
-				</item>
-				<item label="Edit ncmpcpp config">
-					<action name="Execute">
-						<execute>subl3 ~/.ncmpcpp/config</execute>
-					</action>
-				</item>
-        <item label="Edit dunstrc">
-          <action name="Execute">
-            <execute>subl3 ~/.config/dunst/dunstrc</execute>
-          </action>
-          </item>
-				<separator/>
-				<item label="OBMenu GUI">
-					<action name="Execute">
-						<execute>obmenu</execute>
-					</action>
-				</item>
-					<item label="OBKey GUI">
-					<action name="Execute">
-						<command>obkey</command>
-						<startupnotify>
-							<enabled>yes</enabled>
-						</startupnotify>
-					</action>
-				</item>
-				<item label="XFCE4 Settings">
-					<action name="Execute">
-						<command>xfce4-settings-manager</command>
-						<startupnotify>
-							<enabled>yes</enabled>
-						</startupnotify>
-					</action>
-				</item>
-				<separator/>
-				<item label="Merge .Xresources">
+			<separator label="CONFIGS"/>
+			<item label="Edit menu.xml">
 				<action name="Execute">
-					<execute>urxvt -T "Merge Resources" -e xrdb -merge ~/.Xresources</execute>
+					<command>subl3 ~/.config/openbox/menu.xml</command>
+				</action>
+			</item>
+			<item label="Edit rc.xml">
+				<action name="Execute">
+					<command>subl3 ~/.config/openbox/rc.xml</command>
+				</action>
+			</item>
+			<item label="Edit autostart">
+				<action name="Execute">
+					<command>subl3 ~/.config/openbox/autostart</command>
+				</action>
+			</item>
+			<item label="Edit .Xresources">
+				<action name="Execute">
+					<command>subl3 ~/.Xresources</command>
+				</action>
+			</item>
+			<item label="Edit JGMenu">
+				<action name="Execute">
+					<command>subl3 ~/.config/jgmenu/jgmenurc</command>
+				</action>
+			</item>
+			<item label="Edit .zshrc">
+				<action name="Execute">
+					<command>subl3 ~/.zshrc</command>
+				</action>
+			</item>
+			<item label="Edit compton.conf">
+				<action name="Execute">
+					<command>subl3 ~/.config/compton.conf</command>
+				</action>
+			</item>
+			<item label="Edit pacman.conf">
+				<action name="Execute">
+					<command>gksu geany /etc/pacman.conf</command>
+				</action>
+			</item>
+			<item label="Edit ncmpcpp config">
+				<action name="Execute">
+					<command>subl3 ~/.ncmpcpp/config</command>
+				</action>
+			</item>
+			<item label="Edit dunstrc">
+				<action name="Execute">
+					<command>subl3 ~/.config/dunst/dunstrc</command>
 				</action>
 			</item>
 			<separator/>
-				<item label="File Manager As Root">
-					<action name="Execute">
-						<command>
-                        gksudo thunar
-                    </command>
-					</action>
-				</item>
-				<item label="Text Editor As Root">
-					<action name="Execute">
-						<command>
-                        gksudo subl3
-                    </command>
-					</action>
-				</item>
-				<item label="Terminal As Root">
-					<action name="Execute">
-						<command>
-                        gksudo termite
-                    </command>
-					</action>
-				</item>
-				</menu>
-					<menu id="system-menu-appearance" label="Appearance">
-						<separator label="LOOK AND FEEL" />
-						<item label="Openbox Configuration Manager">
-							<action name="Execute">
-								<command>obconf</command>
-								<startupnotify>
-									<enabled>yes</enabled>
-								</startupnotify>
-							</action>
-						</item>
-						<item label="XFCE4 Appearance">
-							<action name="Execute">
-								<command>xfce4-appearance-settings</command>
-								<startupnotify>
-									<enabled>yes</enabled>
-								</startupnotify>
-							</action>
-						</item>
-						<item label="Mouse Appearance">
-							<action name="Execute">
-								<command>xfce4-mouse-settings</command>
-								<startupnotify>
-									<enabled>yes</enabled>
-								</startupnotify>
-							</action>
-						</item>
-						<item label="Rofi Appearance">
-							<action name="Execute">
-								<command>subl3 ~/.config/rofi/config</command>
-							</action>
-							</item>
-							<item label="ACYLS Tweak">
-							<action name="Execute">
-								<command>python3 ~/.icons/ACYLS/scripts/run.py</command>
-							</action>
-							</item>
-						  <item label="Rofi Appearance">
-		        <action name="Execute">
-		          <command>rofi-theme-selector rofi -modi drun,run -show drun -width 700 -location 0 -font "Noto Sans 13"</command>
-		        </action>
-		      </item>
-		      <item label="Exit Appearance">
-		        <action name="Execute">
-		          <command>gksudo subl3 /etc/oblogout.conf</command>
-		        </action>
-		      </item>
-				<item label="Screensaver">
-							<action name="Execute">
-								<command>xscreensaver</command>
-								<startupnotify>
-									<enabled>yes</enabled>
-								</startupnotify>
-							</action>
-						</item>
-						<item label="Notifications">
-							<action name="Execute">
-								<command>xfce4-notifyd-config</command>
-								<startupnotify>
-									<enabled>yes</enabled>
-								</startupnotify>
-							</action>
-						</item>
-					<separator/>
-		      <menu execute="/usr/bin/al-conky-pipemenu" id="pipe-conky" label="Conky Settings" />
-			  <menu execute="/usr/bin/al-tint2-pipemenu" id="pipe-tint2" label="Tint2 Settings" />
-			  <menu execute="/usr/bin/al-polybar-pipemenu" id="PolybarPipeMenu" label="Polybar Settings"/>
-						<separator/>
-					<item label="Choose Wallpaper">
-						<action name="Execute">
-							<command>nitrogen</command>
-							<startupnotify>
-								<enabled>yes</enabled>
-							</startupnotify>
-						</action>
-					</item>
-					</menu>
-				</menu>
-			</menu>
-				<separator/>
-				<item label="web">
-			<action name="Execute">
-				<execute>firefox-developer-edition</execute>
-			</action>
-		</item>
-		<item label="music">
-			<action name="Execute">
-				<execute>deadbeef</execute>
-			</action>
-		</item>
-		<item label="editor">
-			<action name="Execute">
-				<execute>subl3</execute>
-			</action>
-		</item>
-		<item label="chat">
-			<action name="Execute">
-				<execute>hexchat</execute>
-			</action>
-		</item>
+			<item label="OBMenu GUI">
+				<action name="Execute">
+					<command>obmenu</command>
+				</action>
+			</item>
+			<item label="OBKey GUI">
+				<action name="Execute">
+					<command>obkey</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="XFCE4 Settings">
+				<action name="Execute">
+					<command>xfce4-settings-manager</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
 			<separator/>
-					<menu id="openbox-menu" label="openbox">
-					<item label="Lock...">
-			<action name="Execute">
-				<execute>i3lock-fancy -p</execute>
-			</action>
-		</item>
-		 <item label="Exit...">
-              <action name="Execute">
-        <command>/usr/bin/rofi-logout</command>
-      </action>
-    </item>
-	  </menu>
+			<item label="Merge .Xresources">
+				<action name="Execute">
+					<command>urxvt -T &quot;Merge Resources&quot; -e xrdb -merge ~/.Xresources</command>
+				</action>
+			</item>
+			<separator/>
+			<item label="File Manager As Root">
+				<action name="Execute">
+					<command>gksudo thunar</command>
+				</action>
+			</item>
+			<item label="Text Editor As Root">
+				<action name="Execute">
+					<command>gksudo subl3</command>
+				</action>
+			</item>
+			<item label="Terminal As Root">
+				<action name="Execute">
+					<command>gksudo termite</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="pipe-help" label="Help" execute="/bin/al-help-pipemenu"/>
+		<menu id="system-menu-appearance" label="Appearance">
+			<separator label="LOOK AND FEEL"/>
+			<item label="Openbox Configuration Manager">
+				<action name="Execute">
+					<command>obconf</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="XFCE4 Appearance">
+				<action name="Execute">
+					<command>xfce4-appearance-settings</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="Mouse Appearance">
+				<action name="Execute">
+					<command>xfce4-mouse-settings</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="Rofi Appearance">
+				<action name="Execute">
+					<command>subl3 ~/.config/rofi/config</command>
+				</action>
+			</item>
+			<item label="ACYLS Tweak">
+				<action name="Execute">
+					<command>python3 ~/.icons/ACYLS/scripts/run.py</command>
+				</action>
+			</item>
+			<item label="Rofi Appearance">
+				<action name="Execute">
+					<command>rofi-theme-selector rofi -modi drun,run -show drun -width 700 -location 0 -font &quot;Noto Sans 13&quot;</command>
+				</action>
+			</item>
+			<item label="Exit Appearance">
+				<action name="Execute">
+					<command>gksudo subl3 /etc/oblogout.conf</command>
+				</action>
+			</item>
+			<item label="Screensaver">
+				<action name="Execute">
+					<command>xscreensaver</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="Notifications">
+				<action name="Execute">
+					<command>xfce4-notifyd-config</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<separator/>
+			<menu id="pipe-conky" label="Conky Settings" execute="/usr/bin/al-conky-pipemenu"/>
+			<menu id="pipe-tint2" label="Tint2 Settings" execute="/usr/bin/al-tint2-pipemenu"/>
+			<menu id="PolybarPipeMenu" label="Polybar Settings" execute="/usr/bin/al-polybar-pipemenu"/>
+			<menu execute="/usr/bin/al-compositor" id="compositing-pipemenu" label="Compositing" />
+			<separator/>
+			<item label="Choose Wallpaper">
+				<action name="Execute">
+					<command>nitrogen</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+		</menu>
 	</menu>
+</menu>
+<menu id="openbox-menu" label="openbox">
+	<item label="Lock...">
+		<action name="Execute">
+			<command>i3lock-fancy -p</command>
+		</action>
+	</item>
+	<item label="Exit...">
+		<action name="Execute">
+			<command>/usr/bin/rofi-logout</command>
+		</action>
+	</item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+	<separator label="A R C H L A B S" />
+	<separator/>
+	<menu id="applications-menu"/>
+	<separator/>
+	<item label="run...">
+		<action name="Execute">
+			<command>rofi -show combi</command>
+		</action>
+	</item>
+	<item label="web">
+		<action name="Execute">
+			<command>firefox-developer-edition</command>
+		</action>
+	</item>
+	<item label="music">
+		<action name="Execute">
+			<command>audacious</command>
+		</action>
+	</item>
+	<item label="editor">
+		<action name="Execute">
+			<command>subl3</command>
+		</action>
+	</item>
+	<item label="files">
+		<action name="Execute">
+			<command>thunar</command>
+		</action>
+	</item>
+	<separator/>
+	<menu id="pipe-places" label="places" execute="/bin/al-places-pipemenu --recent"/>
+	<menu id="openbox-menu"/>
+</menu>
+
 </openbox_menu>

@@ -18,7 +18,7 @@
 }
 
 #workspacestodockDock .workspace-thumbnails {
-    background-color: #eceff4;
+    background-color: #37474F;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -471,7 +471,7 @@
     height: 20px;
     margin: 1px;
     border-radius: 0;
-    background-color: #3b4252;
+    background-color: #FF4081;
     color: #eceff4;
     font-size: 9pt;
     font-weight: bold;
@@ -506,7 +506,7 @@
 }
 
 .workspacestodock-caption-number-current {
-    /* background-color: #3b4252; */
+    /* background-color: #42A5F5; */
 }
 
 .workspacestodock-caption-name-current {

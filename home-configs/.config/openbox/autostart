@@ -62,8 +62,11 @@ xscreensaver -no-splash &
 ##Panel Options
 #xfce4-panel &
 #(sleep 2; plank) &
-tint2 &
+#tint2 &
 #(sleep 5; polybar -r ob-bar) &
+#(sleep 5; polybar -r bar) &
+#(sleep 5; polybar -r bar2) &
+(sleep 5; polybar -r fullbar) &
 #(sleep 1; $HOME/.config/polybar/polybar.sh) &
 
 ##Applets and Other Things
@@ -71,7 +74,8 @@ tint2 &
 #(sleep 5; covergloobus) &
 #(sleep 5; nm-applet) &
 g610-led -a 90 &
-(sleep 3; clipit) &
+#(sleep 3; clipit) &
+(sleep 5c; clipman) &
 #(sleep 2; greenclip daemon) &
 (sleep 2; volumeicon) &
 #(sleep 2; volti) &

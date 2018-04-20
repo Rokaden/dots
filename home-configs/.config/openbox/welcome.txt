@@ -1,0 +1,20 @@
+<big><b>Welcome to ArchLabs Live Session!</b></big>
+
+This 'Live' operating system allows you to test ArchLabs without making any changes to your
+computer's hard drive. Among other things, it can be used to check hardware compatibility
+(your network connection, monitor, keyboard, etc...), to perform system recovery or to work
+anonymously on a public computer.
+
+
+Keyboard shortcuts for some common applications are listed on the desktop
+('Super' is also called the Windows key or Meta).
+Right-click the desktop to access the system Main Menu, or use the keyboard shortcut shown.
+
+Your username is '<b>user</b>' and your password is '<b>archlabs</b>'.
+You already have sudo permissions.
+
+To install ArchLabs to your hard-disk right click on the desktop and select 'Install ArchLabs'.
+
+
+
+					Thank you for trying <b>ArchLabs Linux</b>!
