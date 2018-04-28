@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=City Lights
+Comment= City Lights theme to match Atom Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=City Lights
+GtkTheme=City Lights
+IconTheme=City Lights
+MetacityTheme=City Lights
