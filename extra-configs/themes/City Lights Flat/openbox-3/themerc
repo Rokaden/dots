@@ -10,7 +10,7 @@ menu.border.color: #131920
 menu.border.width: 15
 
 menu.title.bg: Solid Flat
-menu.title.bg.color: #131920
+menu.title.bg.color: #1D252c
 menu.title.bg.shadow: 0
 menu.title.text.color: #eceff4
 menu.title.text.justify: Center
