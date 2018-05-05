@@ -1,0 +1,101 @@
+# Use Xft?
+use_xft yes
+xftfont cure:size=8
+
+# Update interval in seconds
+update_interval 1
+
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+own_window  yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager 
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 560 5
+
+maximum_width 223
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders yes
+
+# Stippled borders?
+stippled_borders 0
+
+# border margins
+border_margin 15
+
+# border width
+border_width 5
+
+# Default colors and also border colors
+default_color 2b303b
+#default_shade_color white
+#default_outline_color black
+own_window_colour 131920
+
+# Text alignment, other possible values are commented
+#alignment top_left
+alignment top_right
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+# same thing as passing -x at command line
+gap_x -3800
+gap_y 50
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer yes
+
+TEXT
+${color eceff4}kernel:${color 8fa1b3}${alignr}$kernel
+${color eceff4}uptime:${color 8fa1b3}${alignr}$uptime
+
+${color eceff4}arch update: ${alignr}${execpi 60 checkupdates | wc -l}
+
+${color eceff4}cpu1:${color 8fa1b3}${alignr}${cpu cpu1}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core0 |awk '{print $3}'}
+${color 668ABF}${cpugraph cpu1 40,220 668ABF eceff4} 
+${color eceff4}cpu2:${color 8fa1b3}${alignr}${cpu cpu2}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core1 |awk '{print $3}'}
+${color 668ABF}${cpugraph cpu2 40,220 668ABF eceff4} 
+${color eceff4}cpu3:${color 8fa1b3}${alignr}${cpu cpu3}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core2 |awk '{print $3}'}
+${color 668ABF}${cpugraph cpu3 40,220 668ABF eceff4} 
+${color eceff4}cpu4:${color 8fa1b3}${alignr}${cpu cpu4}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core3 |awk '{print $3}'}
+${color 668ABF}${cpugraph cpu4 40,220 668ABF eceff4}
+
+${color eceff4}fanspeed:${color 8fa1b3} ${alignr}${execi 15 sensors | grep -i "fan1" | cut -c 14-21}
+
+${color eceff4}gputemp:${color 8fa1b3}${alignr}${execi 15 sensors | head -n 10 | grep -i "temp1" | cut -c 15-22}
+
+${color eceff4}ram:${color 8fa1b3}${alignr}$mem
+${color 668ABF}${membar 8,220}
