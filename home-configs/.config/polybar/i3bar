@@ -1,11 +1,12 @@
-width                    = 19%
-height                   = 70
-radius                   = 15
-line-size                = 0
-bottom                   = true
-border-bottom-size       = 0
-#module-margin-left       = 1
-#module-margin-right      = 1
+;width                  = 90%
+width                   = 100%
+height                  = 55
+;radius                 = 10
+radius					= 0
+line-size               = 0
+bottom                  = false
+#module-margin-left     = 1
+#module-margin-right    = 1
 
 fixed-center = true
 font-0 = San Francisco Display Regular:size=10;5
@@ -16,9 +17,12 @@ font-4 = "Ubuntu Nerd Font:size=10:antialias=false;5"
 font-5 = FontAwesome:size=10;5
 
 
+
 override-redirect = true
-offset-x = 2900
-offset-y = 20
+;offset-x = 192
+offset-x = 0
+;offset-y = 20
+offset-y = 0
 screenchange-reload      = true
 throttle-output          = 5
 throttle-output-for      = 10
@@ -27,3 +31,12 @@ padding-left             = 0
 padding-right            = 0
 module-margin-left       = 2
 module-margin-right      = 3
+override-redirect 		 = false
+
+
+
+
+
+
+
+

@@ -1,15 +1,20 @@
 ##### teiler configuration file ######
 
+# rofi command. Make sure to have "$@" as last argument
+_rofi () {
+  rofi -kb-accept-entry "!Return" "$@"
+}
+
 # general variables
 
 # the path where images, videos and pastes should be saved
 img_path=$HOME/Screenshots
-vid_path=$HOME/Videos/Screencasts
+vid_path=$HOME/Screenshots/Screencasts
 paste_path=$HOME/Pictures/Paste
 
 # set viewer for images and videos plus editor for images
-viewer=gpicview
-editor=gimp
+viewer=viewnior
+editor=pinta
 player=mpv
 
 # Hitting Enter will upload
@@ -64,12 +69,6 @@ vid_filemask=vid-$random_string
 help_color="#0C73C2"
 hidecursor=yes
 # slop options
-slop_border=2
+slop_border=1
 slop_color="255,0,0"
 hidecursor=yes
-
-# rofi options ######
-# here you can override options for rofi. normally rofi options
-# are read from ~/.Xresources, so setting options there is recommended.
-# you can dump options for ~/.Xresources with "rofi -dump-xresources"
-# rofiopts="-border 2 -width 35 -lines 40 -padding 12"

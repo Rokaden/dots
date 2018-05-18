@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Dobbie-Labs-Dark
+Comment=Dark theme to pay respects to NixiPro
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Dobbie-Labs-Dark
+GtkTheme=Dobbie-Labs-Dark
+IconTheme=ArchLabs-Light
+MetacityTheme=Dobbie-Labs-Dark
