@@ -37,15 +37,16 @@ stippled_borders 0
 
 # border margins
 border_margin 15
+border_inner_margin 20
 
 # border width
-border_width 5
+border_width 2
 
 # Default colors and also border colors
-default_color 2b303b
+default_color 535c5c
 #default_shade_color white
 #default_outline_color black
-own_window_colour 131920
+own_window_colour 171717
 
 # Text alignment, other possible values are commented
 #alignment top_left
@@ -56,7 +57,7 @@ alignment top_right
 # Gap between borders of screen and text
 # same thing as passing -x at command line
 gap_x -3800
-gap_y 1410
+gap_y 1490
 
 # Subtract file system buffers from used memory?
 no_buffers yes
@@ -79,16 +80,17 @@ override_utf8_locale yes
 use_spacer yes
 
 TEXT
-${color 8fa1b3}${alignc 2}audacious
+${color 535c5c}${alignc 2}audacious
 
-${color 8fa1b3}artist:
-${color eceff4}${exec audtool --current-song-tuple-data artist}
+${color 535c5c}artist:
+${color a4a4a4}${exec audtool --current-song-tuple-data artist}
 
-${color 8fa1b3}title:
-${color eceff4}${exec audtool --current-song-tuple-data title}
+${color 535c5c}title:
+${color a4a4a4}${exec audtool --current-song-tuple-data title}
 
-${color 8fa1b3}album:
-${color eceff4}${exec audtool --current-song-tuple-data album}
+${color 535c5c}album:
+${color a4a4a4}${exec audtool --current-song-tuple-data album}
 
-${color 8fa1b3}${execbar expr 100 \* $(audtool --current-song-output-length-seconds) \/ $(audtool --current-song-length-seconds)}
-${color DFE1E8}${exec audtool --current-song-length}
+#${color 535c5c}${execbar expr 100 \* $(audtool --current-song-output-length-seconds) \/ $(audtool --current-song-length-seconds)}
+${color a4a4a4}${exec audtool --current-song-output-length} / ${exec audtool --current-song-length}
+${color a4a4a4}${exec audtool --current-song-bitrate-kbps} ${color 535c5c}kbps ${color a4a4a4}/ ${exec audtool --current-song-frequency-khz} ${color 535c5c}khz

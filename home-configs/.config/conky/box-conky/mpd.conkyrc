@@ -79,16 +79,16 @@ override_utf8_locale yes
 use_spacer yes
 
 TEXT
-${color eceff4}${alignc 2}${font DejaVu Sans Mono:size=18}${execi 1 ~/.config/conky/scripts/cmpd.awk}${font}${color 668ABF}${alignc}${voffset -15}${mpd_status}
+${color a4a4a4}${alignc 2}${font DejaVu Sans Mono:size=18}${execi 1 ~/.config/conky/scripts/cmpd.awk}${font}${color a4a4a4}${alignc}${voffset -15}${mpd_status}
 
-${color 8fa1b3}Random:${color eceff4}${alignr}${mpd_random}
+${color 8fa1b3}Random:${color a4a4a4}${alignr}${mpd_random}
 
-${color 8fa1b3}Artist:
-${color eceff4}${mpd_artist}
-${color 8fa1b3}Title:
-${color eceff4}${mpd_title}
-${color 8fa1b3}Album:
-${color eceff4}${mpd_album}
+${color a4a4a4}Artist:
+${color 8fa1b3}${mpd_artist}
+${color a4a4a4}Title:
+${color 8fa1b3}${mpd_title}
+${color a4a4a4}Album:
+${color 8fa1b3}${mpd_album}
 
-${color eceff4}${mpd_elapsed}${alignr}${mpd_length}
+${color a4a4a4}${mpd_elapsed}${alignr}${mpd_length}
 ${color 668ABF}${mpd_bar 8,220}

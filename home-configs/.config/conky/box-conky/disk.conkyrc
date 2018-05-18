@@ -39,15 +39,16 @@ stippled_borders 0
 
 # border margins
 border_margin 15
+border_inner_margin 20
 
 # border width
-border_width 5
+border_width 2
 
 # Default colors and also border colors
-default_color 2b303b
+default_color 535c5c
 #default_shade_color white
 #default_outline_color black
-own_window_colour 131920
+own_window_colour 171717
 
 # Text alignment, other possible values are commented
 #alignment top_left
@@ -58,7 +59,7 @@ alignment top_right
 # Gap between borders of screen and text
 # same thing as passing -x at command line
 gap_x -3800
-gap_y 1035
+gap_y 1090
 
 # Subtract file system buffers from used memory?
 no_buffers yes
@@ -81,15 +82,15 @@ override_utf8_locale yes
 use_spacer yes
 
 TEXT
-${color 9AB7DC}disk io:${color a4a4a4} ${alignr 4}$diskio
-${color 668ABF}${diskiograph 40,220 668ABF 9AB7DC}
-${color 9AB7DC}root:     ${alignr}${color a4a4a4}${fs_free /}
-${color 668ABF}${fs_bar 9,220 /}
-${color 9AB7DC}music:      ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Music}
-${color 668ABF}${fs_bar 9,220 /run/media/dobbie/Music}
-${color 9AB7DC}movies:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Movies}
-${color 668ABF}${fs_bar 9,220 /run/media/dobbie/Movies}
-${color 9AB7DC}important:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Important}
-${color 668ABF}${fs_bar 9,220 /run/media/dobbie/Important}
-${color 9AB7DC}storage:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Time Machine}
-${color 668ABF}${fs_bar 9,220 /run/media/dobbie/Time Machine}
+${color 535c5c}disk io:${color a4a4a4} ${alignr 4}$diskio
+${color 535c5c}${diskiograph 40,220 535c5c 535c5c}
+${color 535c5c}root:     ${alignr}${color a4a4a4}${fs_free /}
+${color 535c5c}${fs_bar 9,220 /}
+${color 535c5c}music:      ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Music}
+${color 535c5c}${fs_bar 9,220 /run/media/dobbie/Music}
+${color 535c5c}movies:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Movies}
+${color 535c5c}${fs_bar 9,220 /run/media/dobbie/Movies}
+${color 535c5c}important:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Important}
+${color 535c5c}${fs_bar 9,220 /run/media/dobbie/Important}
+${color 535c5c}storage:    ${alignr}${color a4a4a4}${fs_free /run/media/dobbie/Time Machine}
+${color 535c5c}${fs_bar 9,220 /run/media/dobbie/Time Machine}

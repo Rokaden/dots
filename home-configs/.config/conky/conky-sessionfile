@@ -1,1 +1,4 @@
-conky -c /home/dobbie/.config/conky/Arch_Panel_Star_Sign_4K_ArchLabs_Dark.conkyrc & sleep 1s
+conky -c /home/dobbie/.config/conky/box-conky/aud.conkyrc & sleep 0.5
+conky -c /home/dobbie/.config/conky/box-conky/disk.conkyrc & sleep 0.5
+conky -c /home/dobbie/.config/conky/box-conky/sys.conkyrc & sleep 0.5
+conky -c /home/dobbie/.config/conky/box-conky/net.conkyrc & sleep 0.5

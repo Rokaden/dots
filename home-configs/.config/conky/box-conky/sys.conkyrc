@@ -37,15 +37,16 @@ stippled_borders 0
 
 # border margins
 border_margin 15
+border_inner_margin 20
 
 # border width
-border_width 5
+border_width 2
 
 # Default colors and also border colors
-default_color 2b303b
+default_color 535c5c
 #default_shade_color white
 #default_outline_color black
-own_window_colour 131920
+own_window_colour 171717
 
 # Text alignment, other possible values are commented
 #alignment top_left
@@ -79,23 +80,23 @@ override_utf8_locale yes
 use_spacer yes
 
 TEXT
-${color eceff4}kernel:${color 8fa1b3}${alignr}$kernel
-${color eceff4}uptime:${color 8fa1b3}${alignr}$uptime
+${color 535c5c}kernel:${color a4a4a4}${alignr}$kernel
+${color 535c5c}uptime:${color a4a4a4}${alignr}$uptime
 
-${color eceff4}arch update: ${alignr}${execpi 60 checkupdates | wc -l}
+${color 535c5c}arch update: ${alignr}${execpi 60 checkupdates | wc -l}
 
-${color eceff4}cpu1:${color 8fa1b3}${alignr}${cpu cpu1}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core0 |awk '{print $3}'}
-${color 668ABF}${cpugraph cpu1 40,220 668ABF eceff4} 
-${color eceff4}cpu2:${color 8fa1b3}${alignr}${cpu cpu2}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core1 |awk '{print $3}'}
-${color 668ABF}${cpugraph cpu2 40,220 668ABF eceff4} 
-${color eceff4}cpu3:${color 8fa1b3}${alignr}${cpu cpu3}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core2 |awk '{print $3}'}
-${color 668ABF}${cpugraph cpu3 40,220 668ABF eceff4} 
-${color eceff4}cpu4:${color 8fa1b3}${alignr}${cpu cpu4}% ${color 668ABF}${execi 20 sensors k8temp-pci-00c3 |grep Core3 |awk '{print $3}'}
-${color 668ABF}${cpugraph cpu4 40,220 668ABF eceff4}
+${color 535c5c}cpu1:${color a4a4a4}${alignr}${cpu cpu1}% ${color 535c5c}${execi 20 sensors k8temp-pci-00c3 |grep Core0 |awk '{print $3}'}
+${color 535c5c}${cpugraph cpu1 40,220 535c5c 535c5c} 
+${color 535c5c}cpu2:${color a4a4a4}${alignr}${cpu cpu2}% ${color 535c5c}${execi 20 sensors k8temp-pci-00c3 |grep Core1 |awk '{print $3}'}
+${color 535c5c}${cpugraph cpu2 40,220 535c5c 535c5c} 
+${color 535c5c}cpu3:${color a4a4a4}${alignr}${cpu cpu3}% ${color 535c5c}${execi 20 sensors k8temp-pci-00c3 |grep Core2 |awk '{print $3}'}
+${color 535c5c}${cpugraph cpu3 40,220 535c5c 535c5c} 
+${color 535c5c}cpu4:${color a4a4a4}${alignr}${cpu cpu4}% ${color 535c5c}${execi 20 sensors k8temp-pci-00c3 |grep Core3 |awk '{print $3}'}
+${color 535c5c}${cpugraph cpu4 40,220 535c5c 535c5c}
 
-${color eceff4}fanspeed:${color 8fa1b3} ${alignr}${execi 15 sensors | grep -i "fan1" | cut -c 14-21}
+${color 535c5c}fanspeed:${color a4a4a4} ${alignr}${execi 15 sensors | grep -i "fan1" | cut -c 14-21}
 
-${color eceff4}gputemp:${color 8fa1b3}${alignr}${execi 15 sensors | head -n 10 | grep -i "temp1" | cut -c 15-22}
+${color 535c5c}gputemp:${color a4a4a4}${alignr}${execi 15 sensors | head -n 10 | grep -i "temp1" | cut -c 15-22}
 
-${color eceff4}ram:${color 8fa1b3}${alignr}$mem
-${color 668ABF}${membar 8,220}
+${color 535c5c}ram:${color a4a4a4}${alignr}$mem
+${color 535c5c}${membar 8,220}
