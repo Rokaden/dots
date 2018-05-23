@@ -1,0 +1,1 @@
+{"removeAtStartup":"false","removeAfterDelay":"true","removalDelayInMinutes":"1","downloadsToRemove":"[\"undefined\"]"}

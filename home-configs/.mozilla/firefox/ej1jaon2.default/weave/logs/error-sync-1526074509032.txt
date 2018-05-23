@@ -1,0 +1,222 @@
+1526074506408	Sync.Service	DEBUG	User-Agent: Firefox/59.0.2 (Linux x86_64) FxSync/1.61.0.20180327223059.desktop
+1526074506410	Sync.Service	INFO	Starting sync at 2018-05-12 09:35:06 in browser session M_TpXcdo2l5b
+1526074506410	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1526074506412	Sync.Status	INFO	Resetting Status.
+1526074506412	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074506412	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074507052	Sync.Resource	DEBUG	GET success 200 https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/info/collections
+1526074507056	Sync.Service	DEBUG	Fetching server configuration: https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/info/configuration
+1526074507056	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074507218	Sync.Resource	DEBUG	GET success 200 https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/info/configuration
+1526074507218	Sync.Service	DEBUG	Fetching global metadata record
+1526074507218	Sync.Service	DEBUG	Weave Version: 1.61.0 Local Storage: 5 Remote Storage: 5
+1526074507218	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1526074507218	Sync.Service	INFO	Testing info/collections: {"passwords":1525471832,"addons":1525589286.31,"tabs":1526075046.89,"clients":1526075046.48,"crypto":1501291148.73,"forms":1526069025.03,"meta":1501291186.11,"bookmarks":1526071511.18,"prefs":1526074918.68,"history":1526074986.63}
+1526074507218	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1501291148.73
+1526074507218	Sync.Synchronizer	DEBUG	Refreshing client list.
+1526074507220	Sync.Engine.Clients	INFO	0 outgoing items pre-reconciliation
+1526074507220	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074507390	Sync.Collection	DEBUG	GET success 200 https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/storage/clients?full=1&limit=1000
+1526074507402	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 4 reconciled.
+1526074507404	Sync.Engine.Clients	INFO	Hiding stale client X29QR32xQbbU - in known stale clients list
+1526074507412	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1526074507416	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1526074507418	Sync.Engine.Prefs	INFO	0 outgoing items pre-reconciliation
+1526074507422	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507424	Sync.Engine.Passwords	INFO	0 outgoing items pre-reconciliation
+1526074507426	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507428	Sync.Engine.Tabs	INFO	1 outgoing items pre-reconciliation
+1526074507430	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507434	Sync.Engine.Tabs	INFO	Posting 1 records of 593 bytes with batch=true
+1526074507434	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074507434	Sync.Collection	DEBUG	POST Length: 593
+1526074507594	Sync.Collection	DEBUG	POST success 200 https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/storage/tabs?batch=true&commit=true
+1526074507604	Sync.Engine.Bookmarks	INFO	0 outgoing items pre-reconciliation
+1526074507606	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507612	Sync.Engine.Bookmarks.BookmarkSyncUtils	WARN	Trying to remove non-existent mobile query
+1526074507612	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"skipped":0,"updated":0}
+1526074507616	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1526074507616	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Bookmark Toolbar Menu Button (version=1.4, id=personal-bookmarks-menu-button-single@codefisher.org)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Hide Title Bar (version=1.2, id=hidetitlebar@gkfx.github.com)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon VivaldiFox (version=2.2, id=@vivaldi-fox)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Minimize Window Button (version=1.0.2, id=minimize-window-button@nanpuyue.com)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google Translator for Firefox (version=3.0.3.1, id=translator@zoli.bod)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Maximize/Restore Window Button (version=1.0.2, id=maximize-window-button@nanpuyue.com)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Application Update Service Helper (version=2.0, id=aushelper@mozilla.org)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Pocket (version=1.0.5, id=firefox@getpocket.com)
+1526074507626	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Screenshots (version=25.0.0, id=screenshots@mozilla.org)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compat (version=1.1, id=webcompat@mozilla.org)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Shield Recipe Client (version=80, id=shield-recipe-client@mozilla.org)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Follow-on Search Telemetry (version=0.9.6, id=followonsearch@mozilla.com)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0, id=formautofill@mozilla.org)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Activity Stream (version=2018.02.17.0026-173e2795, id=activity-stream@mozilla.org)
+1526074507628	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Photon onboarding (version=1.0, id=onboarding@mozilla.org)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Default (version=59.0.2, id={972ce4c6-7e08-4474-a285-3208198ce6fd})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Speed Dial 2 (version=2.3.4, id=michal.simonfy@gmail.com)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Tampermonkey (version=4.6.5757, id=firefox@tampermonkey.net)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Multithreaded Download Manager (version=1.5a1, id=multithreaded-download-manager@qw.linux-2g64.local)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon AdNauseam (version=3.6.205, id=adnauseam@rednoise.org)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Close Window Button (version=2.1, id=close-window-button@qw.linux-2g64.local)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Hide Tabs (version=2018.1.21, id=hide-tabs@afnankhan)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google search link fix (version=1.6.7, id=jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Decentraleyes (version=2.0.3, id=jid1-BoFifL9Vbdl2zQ@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Cookie AutoDelete (version=2.1.2, id=CookieAutoDelete@kennydo.com)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Facebook Container (version=1.3.1, id=@contain-facebook)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Octotree (version=2.4.6, id=jid1-Om7eJGwA1U8Akg@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Telegram Messenger as a Sidebar (version=2.0, id={19fdef9c-9a21-4032-80d4-476e9fb0fc87})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Telegram Web (version=3.0, id={ed387cfb-e57a-49e0-9bf3-017a1f7f2378})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon To Google Translate (version=3.1, id=jid1-93WyvpgvxzGATw@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Text Contrast for Dark Themes (version=2.0.4, id=jid1-nMVE2oP40qeQDQ@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Reddit Comment Collapser (version=5.1.1, id={a5b2e636-07e5-4331-93c1-6cf4074356c8})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google Search "View Image" Button (version=1.4, id={23cc126f-bd98-4a53-807a-cbc9af2cfe89})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Grammarly for Firefox (version=8.825.1597, id=87677a2c52b84ad3a151a4a72f5bd3c4@jetpack)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Greasemonkey (version=4.3, id={e4a8a97b-f2ed-450b-b12d-ee082ba24781})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Reddit (Au) Comment Highlights (version=1.2.0, id={ada26ae8-41ec-4460-936a-790afc2d85c9})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Vimium (version=1.63.3, id={d7742d87-e61d-4b78-b8a1-b469842139fa})
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon uBlock Origin (version=1.16.4, id=uBlock0@raymondhill.net)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Download Cleaner Lite (version=1.3, id=download-cleaner-lite@futuretech.in)
+1526074507630	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Reddit Enhancement Suite (version=5.12.2, id=jid1-xUfzOsOFlzSOXg@jetpack)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Google Container (version=1.3.1, id=@contain-google)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Don't track me Google (version=4.21, id=dont-track-me-google@robwu.nl)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon HTTPS Everywhere (version=2018.4.11, id=https-everywhere@eff.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Request Control (version=1.9.0, id={1b1e6108-2d88-4f0f-a338-01f9dbcccd6f})
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Nixie-Pro-Labs (version=0, id=972784@personas.mozilla.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon City Lights Flat (version=1.0, id=970068@personas.mozilla.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Grey Backround (version=0, id=131576@personas.mozilla.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Pale Night (version=1.0, id=832951@personas.mozilla.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=, id=firefox-compact-light@mozilla.org@personas.mozilla.org)
+1526074507632	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=, id=firefox-compact-dark@mozilla.org@personas.mozilla.org)
+1526074507634	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=1.7.1, id=gmp-gmpopenh264)
+1526074507634	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Widevine Content Decryption Module provided by Google Inc. (version=1.4.8.1008, id=gmp-widevinecdm)
+1526074507636	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1526074507640	Sync.Engine.Addons.Store	DEBUG	972784@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons.Store	DEBUG	firefox-compact-dark@mozilla.org@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons.Store	DEBUG	firefox-compact-dark@mozilla.org@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons.Store	DEBUG	972784@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons.Store	DEBUG	972784@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons.Store	DEBUG	firefox-compact-dark@mozilla.org@personas.mozilla.org not syncable: vetoed by the addon manager.
+1526074507640	Sync.Engine.Addons	INFO	0 outgoing items pre-reconciliation
+1526074507640	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507642	Sync.Engine.Forms	INFO	0 outgoing items pre-reconciliation
+1526074507644	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507648	Sync.Engine.History	INFO	2 outgoing items pre-reconciliation
+1526074507648	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1526074507654	Sync.Engine.History	INFO	Posting 2 records of 2180 bytes with batch=true
+1526074507654	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074507654	Sync.Collection	DEBUG	POST Length: 2180
+1526074507856	Sync.Collection	DEBUG	POST success 200 https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/storage/history?batch=true&commit=true
+1526074507860	Sync.Engine.Extension-Storage	DEBUG	Syncing extension settings for ["download-cleaner-lite@futuretech.in","hidetitlebar@gkfx.github.com","https-everywhere@eff.org","jid1-BoFifL9Vbdl2zQ@jetpack","jid1-nMVE2oP40qeQDQ@jetpack","{ada26ae8-41ec-4460-936a-790afc2d85c9}","translator@zoli.bod","{1b1e6108-2d88-4f0f-a338-01f9dbcccd6f}","multithreaded-download-manager@qw.linux-2g64.local"]
+1526074507868	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1525587783686.
+1526074507868	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1526074507870	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @wikipedia-peek
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for chrome-gnome-shell@gnome.org
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {0ad88674-2b41-4cfb-99e3-e206c74a0076}
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {174b2d58-b983-4501-ab4b-07e71203cb43}
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for hidetitlebar@gkfx.github.com
+1526074507870	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for enhancerforyoutube@maximerf.addons.mozilla.org
+1526074507872	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @vivaldi-fox
+1526074507872	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @re-style
+1526074507872	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for translator@zoli.bod
+1526074507872	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for firefox@ghostery.com
+1526074507872	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for treestyletab@piro.sakura.ne.jp
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {d7742d87-e61d-4b78-b8a1-b469842139fa}
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {ada26ae8-41ec-4460-936a-790afc2d85c9}
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {a5b2e636-07e5-4331-93c1-6cf4074356c8}
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for jid1-nMVE2oP40qeQDQ@jetpack
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for jid1-BoFifL9Vbdl2zQ@jetpack
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for https-everywhere@eff.org
+1526074507874	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {c28e42b2-28b5-45f0-bdc8-6989ae7e6a7e}
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for uBlock0@raymondhill.net
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for multithreaded-download-manager@qw.linux-2g64.local
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for download-cleaner-lite@futuretech.in
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for dont-track-me-google@robwu.nl
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {1b1e6108-2d88-4f0f-a338-01f9dbcccd6f}
+1526074507876	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1526074507878	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1526074507878	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1526074507878	Sync.CollectionKeyManager	INFO	Bumping last modified to 1525587783686
+1526074508002	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508002	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508002	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508008	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508010	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508010	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508014	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508014	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508014	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508018	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508020	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508020	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508022	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508022	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508022	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508026	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508026	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508026	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508028	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508028	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508028	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508030	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508032	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508032	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508032	FirefoxAccounts	DEBUG	getOAuthToken enter
+1526074508034	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1526074508034	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1526074508516	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1525587783686.
+1526074508516	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1526074508516	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1526074508516	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @wikipedia-peek
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for chrome-gnome-shell@gnome.org
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {0ad88674-2b41-4cfb-99e3-e206c74a0076}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {174b2d58-b983-4501-ab4b-07e71203cb43}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for hidetitlebar@gkfx.github.com
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for enhancerforyoutube@maximerf.addons.mozilla.org
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @vivaldi-fox
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for @re-style
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for translator@zoli.bod
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for firefox@ghostery.com
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for treestyletab@piro.sakura.ne.jp
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {d7742d87-e61d-4b78-b8a1-b469842139fa}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {ada26ae8-41ec-4460-936a-790afc2d85c9}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {a5b2e636-07e5-4331-93c1-6cf4074356c8}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for jid1-nMVE2oP40qeQDQ@jetpack
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for jid1-BoFifL9Vbdl2zQ@jetpack
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for https-everywhere@eff.org
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {c28e42b2-28b5-45f0-bdc8-6989ae7e6a7e}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for uBlock0@raymondhill.net
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for multithreaded-download-manager@qw.linux-2g64.local
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for download-cleaner-lite@futuretech.in
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for dont-track-me-google@robwu.nl
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {1b1e6108-2d88-4f0f-a338-01f9dbcccd6f}
+1526074508518	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for {58204f8b-01c2-4bbc-98f8-9a90458fd9ef}
+1526074508518	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1526074508518	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1526074508518	Sync.CollectionKeyManager	INFO	Bumping last modified to 1525587783686
+1526074508538	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1526074509020	Sync.Engine.Extension-Storage	ERROR	Syncing {ada26ae8-41ec-4460-936a-790afc2d85c9}: request failed: Error: Connection is not open. (resource://gre/modules/Sqlite.jsm:829:13) JS Stack trace: ensureOpen@Sqlite.jsm:829:13 < executeCached@Sqlite.jsm:469:5 < executeCached@Sqlite.jsm:1307:12 < _executeStatement@kinto-storage-adapter.js:233:12 < list@kinto-storage-adapter.js:312:12 < [6]</list/<@kinto-offline-client.js:1477:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</<@kinto-offline-client.js:875:437 < [6]</_asyncToGenerator/<@kinto-offline-client.js:875:99 < list@kinto-offline-client.js:1475:12 < [6]</gatherLocalChanges/<@kinto-offline-client.js:1716:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</</step/<@kinto-offline-client.js:875:361 < observe@AsyncShutdown.jsm:535:9
+1526074509020	Sync.Engine.Extension-Storage	WARN	Syncing failed: Error: Connection is not open. (resource://gre/modules/Sqlite.jsm:829:13) JS Stack trace: ensureOpen@Sqlite.jsm:829:13 < executeCached@Sqlite.jsm:469:5 < executeCached@Sqlite.jsm:1307:12 < _executeStatement@kinto-storage-adapter.js:233:12 < list@kinto-storage-adapter.js:312:12 < [6]</list/<@kinto-offline-client.js:1477:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</<@kinto-offline-client.js:875:437 < [6]</_asyncToGenerator/<@kinto-offline-client.js:875:99 < list@kinto-offline-client.js:1475:12 < [6]</gatherLocalChanges/<@kinto-offline-client.js:1716:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</</step/<@kinto-offline-client.js:875:361 < observe@AsyncShutdown.jsm:535:9
+1526074509022	Sync.Status	DEBUG	Status for engine extension-storage: error.engine.reason.unknown_fail
+1526074509022	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1526074509022	Sync.ErrorHandler	DEBUG	extension-storage failed: Error: Connection is not open. (resource://gre/modules/Sqlite.jsm:829:13) JS Stack trace: ensureOpen@Sqlite.jsm:829:13 < executeCached@Sqlite.jsm:469:5 < executeCached@Sqlite.jsm:1307:12 < _executeStatement@kinto-storage-adapter.js:233:12 < list@kinto-storage-adapter.js:312:12 < [6]</list/<@kinto-offline-client.js:1477:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</<@kinto-offline-client.js:875:437 < [6]</_asyncToGenerator/<@kinto-offline-client.js:875:99 < list@kinto-offline-client.js:1475:12 < [6]</gatherLocalChanges/<@kinto-offline-client.js:1716:29 < step@kinto-offline-client.js:875:183 < [6]</_asyncToGenerator/</</step/<@kinto-offline-client.js:875:361 < observe@AsyncShutdown.jsm:535:9
+1526074509024	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1526074509024	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1526074509024	Sync.Synchronizer	INFO	Sync completed at 2018-05-12 09:35:09 after 2.61 secs.
+1526074509026	Sync.Declined	DEBUG	Handling remote declined: []
+1526074509026	Sync.Declined	DEBUG	Handling local declined: []
+1526074509026	Sync.Declined	DEBUG	Declined changed? false
+1526074509026	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1526074509026	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1526074509026	Sync.ErrorHandler	WARN	Failed to dump addons: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonsByTypes :: line 2473"  data: no] Stack trace: getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:2473 < getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:3607 < _dumpAddons()@resource://services-sync/policies.js:835 < resetFileLog()@resource://services-sync/policies.js:863 < observe()@resource://services-sync/policies.js:789 < observe()@resource://services-common/observers.js:132 < notify()@resource://services-common/observers.js:92 < notify()@resource://services-sync/util.js:175 < WrappedNotify()@resource://services-sync/util.js:182 < observe()@resource://gre/modules/AsyncShutdown.jsm:535
+1526074509028	Sync.ErrorHandler	DEBUG	Addons installed: 0
+1526074509030	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

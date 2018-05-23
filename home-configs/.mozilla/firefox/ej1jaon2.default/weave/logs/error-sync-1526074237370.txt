@@ -1,0 +1,128 @@
+1526074231692	Sync.Service	INFO	Loading Weave 1.61.0
+1526074231694	Sync.Engine.Clients	DEBUG	Engine constructed
+1526074231694	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1526074231694	Sync.Engine.Clients	DEBUG	SyncEngine initialized: clients
+1526074231698	Sync.Engine.Addons	DEBUG	Engine constructed
+1526074231698	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1526074231702	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1526074231704	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1526074231704	Sync.Engine.Forms	DEBUG	Engine constructed
+1526074231706	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1526074231706	Sync.Engine.History	DEBUG	Engine constructed
+1526074231708	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1526074231708	Sync.Engine.Passwords	DEBUG	Engine constructed
+1526074231708	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1526074231710	Sync.Engine.Prefs	DEBUG	Engine constructed
+1526074231710	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1526074231712	Sync.Engine.Tabs	DEBUG	Engine constructed
+1526074231712	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1526074231712	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1526074231714	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1526074231714	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1526074231714	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0
+1526074231716	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074231716	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1526074231716	Sync.Engine.Bookmarks.Tracker	DEBUG	migrateOldEntries: Missing bookmarks tracker file; skipping migration
+1526074231716	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1526074231716	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1526074231718	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074231718	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1526074235718	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074235718	Sync.Service	DEBUG	User-Agent: Firefox/59.0.2 (Linux x86_64) FxSync/1.61.0.20180327223059.desktop
+1526074235720	Sync.Service	INFO	Starting sync at 2018-05-12 09:30:35 in browser session WmWegU-dtvyn
+1526074235720	Sync.Service	DEBUG	In sync: should login.
+1526074235720	Sync.Service	INFO	Logging in the user.
+1526074235722	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1526074235722	FirefoxAccounts	DEBUG	already verified
+1526074235722	Sync.BrowserIDManager	INFO	Starting fetch for key bundle.
+1526074235722	FirefoxAccounts	DEBUG	already verified
+1526074235722	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1526074235722	FirefoxAccounts	DEBUG	enter getAssertion()
+1526074235728	FirefoxAccounts	DEBUG	got keyPair
+1526074235728	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1526074235730	Services.Common.RESTRequest	TRACE	local time, offset: 1526074235730, 0
+1526074235732	Services.Common.RESTRequest	TRACE	hawk auth header: Hawk id="c251aa899c857e2722872b12d2c8252d231e2c2996da44c22bf190cb4216664e", ts="1526074235", nonce="J91BclwwCD0=", hash="ApZtTnbCe7xJkm0RGOS+JuuLHTjNvlhrX/75M3/yeLM=", mac="Yybe8rGbxU/0Z0eiTjjupTHSyW7TjVXScgmCRyE1djQ="
+1526074235732	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/certificate/sign
+1526074235732	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1526074235732	Services.Common.RESTRequest	TRACE	HTTP Header content-type: application/json
+1526074235732	Services.Common.RESTRequest	TRACE	HTTP Header accept-language: en-nz
+1526074235732	Services.Common.RESTRequest	DEBUG	POST Length: 888
+1526074235732	Services.Common.RESTRequest	TRACE	POST Body: {"publicKey":{"algorithm":"DS","y":"3FB2A56F1317DC66AB0E0AAD17F8818CD3C4C2582F5A6E9EFD9F639F1EF72C5473D5001675EBD1A6A8FD71C97ACF105C1BE10333F803285018EDD8450245413F89F5399F8410AB755D5723D2938EC94FEF5F7072EE6262B8C6BF49B65D3DE43EF44F33D1A57ED4559EF4655CDAD6C03DCA6978A5304BCB68B5FCDF1A1BEF4C90","p":"FF600483DB6ABFC5B45EAB78594B3533D550D9F1BF2A992A7A8DAA6DC34F8045AD4E6E0C429D334EEEAAEFD7E23D4810BE00E4CC1492CBA325BA81FF2D5A5B305A8D17EB3BF4A06A349D392E00D329744A5179380344E82A18C47933438F891E22AEEF812D69C8F75E326CB70EA000C3F776DFDBD604638C2EF717FC26D02E17","q":"E21E04F911D1ED7991008ECAAB3BF775984309C3","g":"C52A4A0FF3B7E61FDF1867CE84138369A6154F4AFA92966E3C827E25CFA6CF508B90E5DE419E1337E07A2E9E2A3CD5DEA704D175F8EBF6AF397D69E110B96AFB17C7A03259329E4829B0D03BBC7896B15B4ADE53E130858CC34D96269AA89041F409136C7242A38895C9D5BCCAD4F389AF1D7A4BD1398BD072DFFA896233397A"},"duration":21600000}
+1526074236238	Services.Common.RESTRequest	TRACE	onStartRequest: POST https://api.accounts.firefox.com/v1/certificate/sign
+1526074236240	Services.Common.RESTRequest	TRACE	Channel for POST https://api.accounts.firefox.com/v1/certificate/sign returned status code 0
+1526074236240	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/certificate/sign 200
+1526074236240	Services.Common.RESTRequest	TRACE	POST body: {"cert":"eyJhbGciOiJSUzI1NiJ9.eyJwdWJsaWMta2V5Ijp7ImFsZ29yaXRobSI6IkRTIiwieSI6IjNGQjJBNTZGMTMxN0RDNjZBQjBFMEFBRDE3Rjg4MThDRDNDNEMyNTgyRjVBNkU5RUZEOUY2MzlGMUVGNzJDNTQ3M0Q1MDAxNjc1RUJEMUE2QThGRDcxQzk3QUNGMTA1QzFCRTEwMzMzRjgwMzI4NTAxOEVERDg0NTAyNDU0MTNGODlGNTM5OUY4NDEwQUI3NTVENTcyM0QyOTM4RUM5NEZFRjVGNzA3MkVFNjI2MkI4QzZCRjQ5QjY1RDNERTQzRUY0NEYzM0QxQTU3RUQ0NTU5RUY0NjU1Q0RBRDZDMDNEQ0E2OTc4QTUzMDRCQ0I2OEI1RkNERjFBMUJFRjRDOTAiLCJwIjoiRkY2MDA0ODNEQjZBQkZDNUI0NUVBQjc4NTk0QjM1MzNENTUwRDlGMUJGMkE5OTJBN0E4REFBNkRDMzRGODA0NUFENEU2RTBDNDI5RDMzNEVFRUFBRUZEN0UyM0Q0ODEwQkUwMEU0Q0MxNDkyQ0JBMzI1QkE4MUZGMkQ1QTVCMzA1QThEMTdFQjNCRjRBMDZBMzQ5RDM5MkUwMEQzMjk3NDRBNTE3OTM4MDM0NEU4MkExOEM0NzkzMzQzOEY4OTFFMjJBRUVGODEyRDY5QzhGNzVFMzI2Q0I3MEVBMDAwQzNGNzc2REZEQkQ2MDQ2MzhDMkVGNzE3RkMyNkQwMkUxNyIsInEiOiJFMjFFMDRGOTExRDFFRDc5OTEwMDhFQ0FBQjNCRjc3NTk4NDMwOUMzIiwiZyI6IkM1MkE0QTBGRjNCN0U2MUZERjE4NjdDRTg0MTM4MzY5QTYxNTRGNEFGQTkyOTY2RTNDODI3RTI1Q0ZBNkNGNTA4QjkwRTVERTQxOUUxMzM3RTA3QTJFOUUyQTNDRDVERUE3MDREMTc1RjhFQkY2QUYzOTdENjlFMTEwQjk2QUZCMTdDN0EwMzI1OTMyOUU0ODI5QjBEMDNCQkM3ODk2QjE1QjRBREU1M0UxMzA4NThDQzM0RDk2MjY5QUE4OTA0MUY0MDkxMzZDNzI0MkEzODg5NUM5RDVCQ0NBRDRGMzg5QUYxRDdBNEJEMTM5OEJEMDcyREZGQTg5NjIzMzM5N0EifSwicHJpbmNpcGFsIjp7ImVtYWlsIjoiNmQ0NDg0YWEyYTI0NGRiM2E4MzNmYzQ3OWJlNTEzZmZAYXBpLmFjY291bnRzLmZpcmVmb3guY29tIn0sImlhdCI6MTUyNjA3NDIyNjEzNCwiZXhwIjoxNTI2MDk1ODM2MTM0LCJmeGEtZ2VuZXJhdGlvbiI6MTQzNTQ4MDQxMTMzNCwiZnhhLWxhc3RBdXRoQXQiOjE1MjQ4ODIxMzksImZ4YS12ZXJpZmllZEVtYWlsIjoibWF0dGRvYnNvbjIwMDFAZ21haWwuY29tIiwiZnhhLWRldmljZUlkIjoiZDFmOWI1MjAxYWZjNmRjNzAwYmQxZTJlNzk3OTcxZjIiLCJmeGEtdG9rZW5WZXJpZmllZCI6dHJ1ZSwiZnhhLWFtciI6WyJwd2QiLCJlbWFpbCJdLCJmeGEtYWFsIjoxLCJpc3MiOiJhcGkuYWNjb3VudHMuZmlyZWZveC5jb20ifQ.HwB0HIrPGyA1NS5SvSgszzmgJ6fin5ZUp02TceydppeCLn3dUSRNW1oNEhGH1fxQzeG-vkrQbIh_u0hDp1LecdJ14RCGJ_MWMxmLP_9DX6YFTpgskQhzLJ8Vog1P7Qjyka8JCAk9n2HSgrAWHasZieiczlQfBojbQTUxSUju_b57pV8NfGU4dx0Qvyn0I41t-TfPEcDqbA7kBSi_ssPhYqR4Zuoc4uxjeAn8OXvCj-OJUMfayZReQdg4Iddef57jGKN6E8TzHqIgGuGc25H-9-SvAc-6ejlNv-Ga1i5bHrv51sTHG8Omp5ordSF8judYuP7VbyfTdhFpT6wZLGw7hQ"}
+1526074236240	Hawk	DEBUG	(Response) /certificate/sign: code: 200 - Status text: OK
+1526074236240	Services.Common.RESTResponse	TRACE	Processing response headers.
+1526074236240	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -240
+1526074236240	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1526074236240	FirefoxAccounts	DEBUG	_updateAccountData with items: ["keyPair","cert"]
+1526074236242	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","deviceId","deviceRegistrationVersion","oauthTokens","profileCache"]
+1526074236242	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","deviceId","deviceRegistrationVersion","oauthTokens","profileCache"]
+1526074236242	FirefoxAccounts	DEBUG	getAssertionFromCert
+1526074236242	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1526074236242	Sync.BrowserIDManager	DEBUG	Getting a token
+1526074236244	Services.Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1526074236244	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1526074236244	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1526074236244	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1526074236244	Services.Common.RESTRequest	TRACE	HTTP Header x-client-state: ace198fe57c79be3cd44ee5b861b276c
+1526074236248	FirefoxAccounts	TRACE	finished write of json user data - took: 6
+1526074236248	FirefoxAccounts	DEBUG	writing secure storage: ["kA","kB"]
+1526074236248	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1526074236252	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1526074236780	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://token.services.mozilla.com/1.0/sync/1.5
+1526074236780	Services.Common.RESTRequest	TRACE	Channel for GET https://token.services.mozilla.com/1.0/sync/1.5 returned status code 0
+1526074236780	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1526074236780	Services.Common.RESTRequest	TRACE	GET body: {"uid": 81614336, "hashalg": "sha256", "api_endpoint": "https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336", "duration": 3600, "key": "7LrBY61mlqfoPp1YqXyAe1kkbj2QkY7Eq9Ks_rvfv9U=", "hashed_fxa_uid": "0522163d3c54ff2aed60792158d3d0b2", "id": "eyJub2RlIjogImh0dHBzOi8vc3luYy01MzEtdXMtd2VzdC0yLnN5bmMuc2VydmljZXMubW96aWxsYS5jb20iLCAidWlkIjogODE2MTQzMzYsICJleHBpcmVzIjogMTUyNjA3NzgzNiwgImZ4YV91aWQiOiAiMDUyMjE2M2QzYzU0ZmYyYWVkNjA3OTIxNThkM2QwYjIiLCAic2FsdCI6ICIyODlhMDAiLCAiZGV2aWNlX2lkIjogIjVjNTc5ZDcxNjM1ODBlZTI5ZDVjYWYzNjdkYTcyNDExIn3eAJDg-p6lrslAQeQjhAHSNRnaWMSQ0TLLSiZ5ezpVog=="}
+1526074236780	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1526074236780	Services.Common.RESTResponse	TRACE	Processing response headers.
+1526074236780	Services.Common.TokenServerClient	DEBUG	Successful token response
+1526074236780	Sync.BrowserIDManager	DEBUG	Successfully got a sync token
+1526074236782	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1526074236784	Sync.BrowserIDManager	INFO	Background fetch for key bundle done
+1526074236784	Sync.Status	DEBUG	Status.login: success.login => success.login
+1526074236784	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074236784	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1526074236784	Sync.Service	INFO	User logged in successfully - verifying login.
+1526074236784	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1526074236784	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1526074236784	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074236784	Sync.BrowserIDManager	DEBUG	_findCluster returning https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/
+1526074236786	Sync.BrowserIDManager	DEBUG	Cluster value = https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/
+1526074236786	Sync.BrowserIDManager	DEBUG	Setting cluster to https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/
+1526074236786	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/
+1526074236786	Sync.BrowserIDManager	DEBUG	_ensureValidToken already has one
+1526074237364	Sync.Resource	WARN	GET request to https://sync-531-us-west-2.sync.services.mozilla.com/1.5/81614336/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1526074237364	Sync.Service	DEBUG	verifyLogin failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1526074237364	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1526074237364	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1526074237364	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1526074237364	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1526074237364	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1526074237366	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network (resource://services-sync/service.js:845:15) JS Stack trace: onNotify@service.js:845:15
+1526074237368	Sync.Service	DEBUG	Not syncing: login returned false.
+1526074237368	Sync.ErrorHandler	DEBUG	Addons installed: 23
+1526074237368	Sync.ErrorHandler	DEBUG	 - Hide Title Bar, version 1.2, id hidetitlebar@gkfx.github.com
+1526074237370	Sync.ErrorHandler	DEBUG	 - Minimize Window Button, version 1.0.2, id minimize-window-button@nanpuyue.com
+1526074237370	Sync.ErrorHandler	DEBUG	 - Google Translator for Firefox, version 3.0.3.1, id translator@zoli.bod
+1526074237370	Sync.ErrorHandler	DEBUG	 - Maximize/Restore Window Button, version 1.0.2, id maximize-window-button@nanpuyue.com
+1526074237370	Sync.ErrorHandler	DEBUG	 - Speed Dial 2, version 2.3.4, id michal.simonfy@gmail.com
+1526074237370	Sync.ErrorHandler	DEBUG	 - Multithreaded Download Manager, version 1.5a1, id multithreaded-download-manager@qw.linux-2g64.local
+1526074237370	Sync.ErrorHandler	DEBUG	 - Close Window Button, version 2.1, id close-window-button@qw.linux-2g64.local
+1526074237370	Sync.ErrorHandler	DEBUG	 - Google search link fix, version 1.6.7, id jid0-XWJxt5VvCXkKzQK99PhZqAn7Xbg@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - Decentraleyes, version 2.0.3, id jid1-BoFifL9Vbdl2zQ@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - Facebook Container, version 1.3.1, id @contain-facebook
+1526074237370	Sync.ErrorHandler	DEBUG	 - Octotree, version 2.4.6, id jid1-Om7eJGwA1U8Akg@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - To Google Translate, version 3.1, id jid1-93WyvpgvxzGATw@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - Text Contrast for Dark Themes, version 2.0.4, id jid1-nMVE2oP40qeQDQ@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - Reddit Comment Collapser, version 5.1.1, id {a5b2e636-07e5-4331-93c1-6cf4074356c8}
+1526074237370	Sync.ErrorHandler	DEBUG	 - Google Search "View Image" Button, version 1.4, id {23cc126f-bd98-4a53-807a-cbc9af2cfe89}
+1526074237370	Sync.ErrorHandler	DEBUG	 - Reddit (Au) Comment Highlights, version 1.2.0, id {ada26ae8-41ec-4460-936a-790afc2d85c9}
+1526074237370	Sync.ErrorHandler	DEBUG	 - uBlock Origin, version 1.16.4, id uBlock0@raymondhill.net
+1526074237370	Sync.ErrorHandler	DEBUG	 - Download Cleaner Lite, version 1.3, id download-cleaner-lite@futuretech.in
+1526074237370	Sync.ErrorHandler	DEBUG	 - Reddit Enhancement Suite, version 5.12.2, id jid1-xUfzOsOFlzSOXg@jetpack
+1526074237370	Sync.ErrorHandler	DEBUG	 - Google Container, version 1.3.1, id @contain-google
+1526074237370	Sync.ErrorHandler	DEBUG	 - Don't track me Google, version 4.21, id dont-track-me-google@robwu.nl
+1526074237370	Sync.ErrorHandler	DEBUG	 - HTTPS Everywhere, version 2018.4.11, id https-everywhere@eff.org
+1526074237370	Sync.ErrorHandler	DEBUG	 - Request Control, version 1.9.0, id {1b1e6108-2d88-4f0f-a338-01f9dbcccd6f}

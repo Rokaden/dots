@@ -39,7 +39,7 @@ window.active.button.unpressed.bg: 			flat solid
 window.active.button.unpressed.bg.color: 	#171717
 window.active.button.unpressed.image.color: #798C91
 window.active.button.pressed.bg: 			flat solid
-window.active.button.pressed.bg.color: 		#af865a
+window.active.button.pressed.bg.color: 		#171717
 window.active.button.pressed.image.color: 	#798C91
 window.active.button.disabled.bg: 			flat solid
 window.active.button.disabled.bg.color: 	#171717
